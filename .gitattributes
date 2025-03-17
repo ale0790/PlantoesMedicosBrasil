@@ -1,0 +1,74 @@
+# Arquivos de texto
+*.css text
+*.html text
+*.js text
+*.json text
+*.md text
+*.txt text
+*.xml text
+
+# Arquivos de script
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Arquivos de configuração
+.env* text
+.gitattributes text
+.gitignore text
+.prettierrc text
+.eslintrc.json text
+vite.config.js text
+
+# Arquivos de documentação
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+
+# Arquivos de imagem
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Arquivos de fonte
+*.ttf binary
+*.eot binary
+*.woff binary
+*.woff2 binary
+
+# Arquivos de áudio
+*.mp3 binary
+*.wav binary
+*.ogg binary
+
+# Arquivos de vídeo
+*.mp4 binary
+*.webm binary
+*.mov binary
+
+# Arquivos de compactação
+*.zip binary
+*.rar binary
+*.7z binary
+*.tar binary
+*.gz binary
+
+# Arquivos de banco de dados
+*.sqlite binary
+*.db binary
+
+# Arquivos de IDE
+.idea/* text
+.vscode/* text
+*.sublime-project text
+*.sublime-workspace text
+
+# Arquivos de sistema
+.DS_Store binary
+Thumbs.db binary 
