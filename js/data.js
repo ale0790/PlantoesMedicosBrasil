@@ -51,3 +51,34 @@ const gruposData = [
     { estado: "RO", microregiao: "Guajará-Mirim", link: "https://t.me/+nft6hd73_wgxMDVh", status: "Ativo" },
     { estado: "RO", microregiao: "Porto Velho", link: "https://t.me/+7ZJLJwVZ6nllYzYx", status: "Ativo" }
 ];
+
+// Mapeamento de estados (sigla para nome completo)
+const estadosMap = {
+    "AC": "Acre",
+    "AL": "Alagoas",
+    "AP": "Amapá",
+    "AM": "Amazonas",
+    "BA": "Bahia",
+    "CE": "Ceará",
+    "DF": "Distrito Federal",
+    "ES": "Espírito Santo",
+    "GO": "Goiás",
+    "MA": "Maranhão",
+    "MT": "Mato Grosso",
+    "MS": "Mato Grosso do Sul",
+    "MG": "Minas Gerais",
+    "PA": "Pará",
+    "PB": "Paraíba",
+    "PR": "Paraná",
+    "PE": "Pernambuco",
+    "PI": "Piauí",
+    "RJ": "Rio de Janeiro",
+    "RN": "Rio Grande do Norte",
+    "RS": "Rio Grande do Sul",
+    "RO": "Rondônia",
+    "RR": "Roraima",
+    "SC": "Santa Catarina",
+    "SP": "São Paulo",
+    "SE": "Sergipe",
+    "TO": "Tocantins"
+};
