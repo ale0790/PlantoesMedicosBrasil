@@ -30,6 +30,54 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        .share-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .share-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 15px;
+            border-radius: 4px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        
+        .share-button:hover {
+            opacity: 0.9;
+        }
+        
+        .share-button i {
+            margin-right: 8px;
+        }
+        
+        .share-whatsapp {
+            background-color: #25D366;
+        }
+        
+        .share-telegram {
+            background-color: #0088cc;
+        }
+        
+        .share-facebook {
+            background-color: #1877F2;
+        }
+        
+        .share-twitter {
+            background-color: #1DA1F2;
+        }
+        
+        .share-linkedin {
+            background-color: #0077B5;
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -44,6 +92,7 @@
                 <a href="#para-medicos">Para Médicos</a>
                 <a href="#para-empresas">Para Empresas</a>
                 <a href="#grupos">Grupos</a>
+                <a href="#compartilhar">Compartilhar</a>
             </div>
             <div class="mobile-menu">
                 <i class="fas fa-bars"></i>
@@ -107,7 +156,7 @@
                     <p>Junte-se aos grupos e encontre plantões que se adequam à sua rotina e localização.</p>
                 </div>
                 <div class="image">
-                    <img src="img/figura 1.png" alt="Médicos encontrando plantões">
+                    <img src="img/optimized/figura 1.png" alt="Médicos encontrando plantões">
                 </div>
             </div>
         </div>
@@ -119,7 +168,7 @@
             <h2>Para Empresas</h2>
             <div class="content">
                 <div class="image">
-                    <img src="img/figura 2.png" alt="Empresas encontrando médicos">
+                    <img src="img/optimized/figura 2.png" alt="Empresas encontrando médicos">
                 </div>
                 <div class="text">
                     <h3>Encontre os Melhores Profissionais</h3>
@@ -132,6 +181,32 @@
                     </ul>
                     <p>Conecte-se com médicos qualificados em sua região e otimize seu processo de contratação.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compartilhar -->
+    <section id="compartilhar" class="compartilhar">
+        <div class="container">
+            <h2>Compartilhe esta Plataforma</h2>
+            <p>Ajude mais médicos e empresas a se conectarem! Compartilhe este site com seus colegas.</p>
+            
+            <div class="share-buttons">
+                <a href="https://wa.me/?text=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20sua%20regi%C3%A3o!%20Acesse%20https://plantoesmedicosbrasil.com.br" target="_blank" class="share-button share-whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://t.me/share/url?url=https://plantoesmedicosbrasil.com.br&text=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20sua%20regi%C3%A3o!" target="_blank" class="share-button share-telegram">
+                    <i class="fab fa-telegram"></i> Telegram
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://plantoesmedicosbrasil.com.br" target="_blank" class="share-button share-facebook">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a href="https://twitter.com/intent/tweet?url=https://plantoesmedicosbrasil.com.br&text=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20sua%20regi%C3%A3o!" target="_blank" class="share-button share-twitter">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://plantoesmedicosbrasil.com.br&title=Plant%C3%B5es%20M%C3%A9dicos%20Brasil&summary=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20sua%20regi%C3%A3o!" target="_blank" class="share-button share-linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
             </div>
         </div>
     </section>
@@ -158,6 +233,7 @@
                     <a href="#como-funciona">Como Funciona</a>
                     <a href="#para-medicos">Para Médicos</a>
                     <a href="#para-empresas">Para Empresas</a>
+                    <a href="#compartilhar">Compartilhar</a>
                 </div>
                 <div class="footer-section">
                     <h3>Contato</h3>
