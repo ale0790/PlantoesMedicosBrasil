@@ -1,69 +1,82 @@
-# Plantões Médicos
+# Plantões Médicos Brasil 🏥
 
-Um website para facilitar o acesso a grupos de Telegram para plantões médicos em diferentes regiões do Brasil.
+[![Licença: MIT](https://img.shields.io/badge/Licença-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Descrição
+Um portal web para conectar profissionais de saúde a grupos de Telegram de plantões médicos em todas as regiões do Brasil.
 
-Este projeto é um site estático que utiliza HTML, CSS e JavaScript para exibir uma lista organizada de grupos do Telegram relacionados a plantões médicos em várias regiões do Brasil. Os usuários podem navegar pelos grupos disponíveis, filtrar por estado e microrregião, e acessar diretamente os links para os grupos do Telegram.
+## 📋 Sobre o Projeto
 
-## Estrutura do Projeto
+Este projeto surgiu da necessidade de centralizar informações sobre grupos de Telegram para plantões médicos no Brasil. A plataforma facilita o acesso dos profissionais de saúde a oportunidades de trabalho temporário em diferentes regiões do país.
+
+### ✨ Funcionalidades
+
+- Navegação intuitiva por estado e microrregião
+- Acesso direto aos grupos do Telegram com um clique
+- Interface responsiva para desktop e dispositivos móveis
+- Busca rápida para localizar grupos específicos
+- Mapa visual das regiões atendidas (em desenvolvimento)
+
+## 🚀 Como Usar
+
+1. Acesse [PlantoesMedicosBrasil](https://github.com/ale0790/PlantoesMedicosBrasil) via GitHub Pages
+2. Na seção "Grupos Disponíveis", navegue pelos estados brasileiros
+3. Selecione uma microrregião para ser redirecionado ao grupo do Telegram correspondente
+4. Alternativamente, use o filtro na seção "Encontre Seu Grupo" para uma busca específica
+
+## 🛠️ Tecnologias
+
+O projeto foi desenvolvido com foco em simplicidade e performance:
+
+- **Frontend**: HTML5, CSS3, JavaScript (Vanilla JS)
+- **Estilização**: CSS personalizado com design responsivo
+- **Interatividade**: JavaScript puro para manipulação de DOM e filtros
+- **Ícones**: Biblioteca Font Awesome
+- **Hospedagem**: GitHub Pages
+
+## 📁 Estrutura do Projeto
 
 ```
 ├── css/
-│   └── style.css          # Estilos do site
+│   └── style.css          # Estilos da interface
 ├── js/
 │   ├── data.js            # Dados dos grupos em formato JSON
-│   └── main.js            # Lógica JavaScript para o site
-├── img/                   # Pasta para imagens
+│   └── main.js            # Lógica de interação e filtros
+├── img/                   # Recursos visuais
 ├── index.html             # Página principal
-├── robots.txt             # Diretrizes para bots de busca
-├── sitemap.xml            # Mapa do site para buscadores
-└── scripts Python (para uso futuro):
-    ├── criar_grupos.py
-    ├── criar_grupos_telegram.py
-    └── obter_links_grupos.py
+├── robots.txt             # Configurações para motores de busca
+├── sitemap.xml            # Mapa do site para indexação
+└── requirements.txt       # Dependências para funcionalidades futuras
 ```
 
-## Características
+## 💻 Desenvolvimento Local
 
-- Navegação simples e intuitiva
-- Listagem de grupos por estado e microrregião
-- Design responsivo (adaptável a dispositivos móveis)
-- Busca rápida de grupos específicos
+Para executar o projeto em seu ambiente local:
 
-## Como Usar
+```bash
+# Clone o repositório
+git clone https://github.com/ale0790/PlantoesMedicosBrasil.git
 
-1. Acesse o site através do GitHub Pages
-2. Navegue pelos estados disponíveis na seção "Grupos Disponíveis"
-3. Clique em uma microrregião para acessar diretamente o grupo do Telegram
-4. Ou use o seletor de estado e microrregião na seção "Encontre Seu Grupo" para uma busca mais direcionada
+# Navegue até a pasta do projeto
+cd PlantoesMedicosBrasil
 
-## Tecnologias Utilizadas
+# Abra o arquivo index.html em seu navegador
+# Nenhum servidor é necessário, pois é um site estático
+```
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- Font Awesome (para ícones)
+## 🤝 Contribuição
 
-## Desenvolvimento Local
+Contribuições são bem-vindas! Se você deseja melhorar este projeto:
 
-Para executar este projeto localmente:
+1. Faça um fork do repositório
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFuncionalidade`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
+5. Abra um Pull Request
 
-1. Clone este repositório
-2. Abra o arquivo `index.html` em qualquer navegador web moderno
+## 📄 Licença
 
-Nenhum servidor ou instalação de dependências é necessário, pois este é um site estático.
+Este projeto está licenciado sob a [Licença MIT](LICENSE) - veja o arquivo LICENSE para detalhes.
 
-## Scripts Python (para uso futuro)
+## 📱 Contato
 
-O projeto inclui alguns scripts Python para administração e geração de dados:
-
-- `criar_grupos.py`: Ferramenta para criar grupos no Telegram
-- `criar_grupos_telegram.py`: Script para gerenciamento de grupos
-- `obter_links_grupos.py`: Extrai links de grupos existentes
-
-Para usar estes scripts, você vai precisar instalar as dependências do Python listadas em `requirements.txt`.
-
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Se você tiver dúvidas ou sugestões, abra uma issue no GitHub ou entre em contato pelo repositório do projeto.
