@@ -1,32 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Página Inicial -->
     <url>
-        <loc>https://plantaoesmedicos.com.br/</loc>
-        <lastmod>2025-03-17</lastmod>
+        <loc>https://plantoesmedicosbrasil.com.br/</loc>
+        <lastmod>2024-03-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
+
+    <!-- Páginas do Pará -->
     <url>
-        <loc>https://plantaoesmedicos.com.br/#como-funciona</loc>
-        <lastmod>2025-03-17</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://plantoesmedicosbrasil.com.br/maraba-pa</loc>
+        <lastmod>2024-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://plantaoesmedicos.com.br/#para-medicos</loc>
-        <lastmod>2025-03-17</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://plantoesmedicosbrasil.com.br/parauapebas-pa</loc>
+        <lastmod>2024-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://plantaoesmedicos.com.br/#para-empresas</loc>
-        <lastmod>2025-03-17</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://plantoesmedicosbrasil.com.br/santarem-pa</loc>
+        <lastmod>2024-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://plantaoesmedicos.com.br/#grupos</loc>
-        <lastmod>2025-03-17</lastmod>
+        <loc>https://plantoesmedicosbrasil.com.br/altamira-pa</loc>
+        <lastmod>2024-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://plantoesmedicosbrasil.com.br/tucurui-pa</loc>
+        <lastmod>2024-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://plantoesmedicosbrasil.com.br/redencao-pa</loc>
+        <lastmod>2024-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Páginas de Roraima -->
+    <url>
+        <loc>https://plantoesmedicosbrasil.com.br/boa-vista-rr</loc>
+        <lastmod>2024-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Páginas do Amazonas -->
+    <url>
+        <loc>https://plantoesmedicosbrasil.com.br/manaus-am</loc>
+        <lastmod>2024-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Páginas do Acre -->
+    <url>
+        <loc>https://plantoesmedicosbrasil.com.br/rio-branco-ac</loc>
+        <lastmod>2024-03-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Páginas de Rondônia -->
+    <url>
+        <loc>https://plantoesmedicosbrasil.com.br/porto-velho-ro</loc>
+        <lastmod>2024-03-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
