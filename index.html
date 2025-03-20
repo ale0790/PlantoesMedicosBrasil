@@ -79,6 +79,288 @@
         .share-linkedin {
             background-color: #0077B5;
         }
+
+        .estado-section {
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .estado-section:last-child {
+            border-bottom: none;
+        }
+        
+        .estado-header {
+            padding: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.2s;
+        }
+        
+        .estado-header:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .estado-header h3 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 1rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .estado-header .estado-sigla {
+            color: #6c757d;
+            font-weight: normal;
+        }
+        
+        .estado-header i {
+            margin-left: auto;
+            transition: transform 0.3s;
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+        
+        .estado-content {
+            display: none;
+            padding: 0 1rem 1rem;
+            background-color: #f8f9fa;
+            border-top: 1px solid #dee2e6;
+        }
+        
+        .estado-section.active .estado-content {
+            display: block;
+        }
+        
+        .estado-section.active .estado-header {
+            background-color: #f8f9fa;
+        }
+        
+        .estado-section.active .estado-header i {
+            transform: rotate(180deg);
+        }
+        
+        .grupos-list {
+            margin: 0;
+        }
+        
+        .grupos-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .grupos-table th,
+        .grupos-table td {
+            padding: 0.75rem;
+            text-align: left;
+        }
+        
+        .grupos-table th {
+            background-color: #f1f3f5;
+            font-weight: 600;
+            color: #495057;
+        }
+        
+        .btn-link {
+            display: inline-block;
+            padding: 0.375rem 0.75rem;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            transition: background-color 0.2s;
+        }
+        
+        .btn-link:hover {
+            background-color: #0056b3;
+        }
+
+        #grupos-container {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* Grupos */
+        .grupos {
+            padding: 4rem 2rem;
+            background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+        }
+
+        .grupos h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        .estados-tabela {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .estado-row {
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            background-color: white;
+        }
+
+        .estado-cell {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .estado-cell:hover {
+            background-color: #f8f9fa;
+        }
+
+        .estado-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .estado-info i {
+            color: #007bff;
+            font-size: 1.25rem;
+        }
+
+        .estado-nome {
+            font-size: 1.25rem;
+            color: #2c3e50;
+        }
+
+        .estado-sigla {
+            color: #6c757d;
+            font-size: 1rem;
+            margin-left: 0.5rem;
+        }
+
+        .toggle-icon {
+            color: #6c757d;
+            transition: transform 0.3s;
+        }
+
+        .estado-row.active .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        .microregioes-container {
+            display: none;
+            padding: 1.5rem;
+            background-color: #f8f9fa;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .estado-row.active .microregioes-container {
+            display: block;
+        }
+
+        .microregioes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .microregiao-card {
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s;
+        }
+
+        .microregiao-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .card-content {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .card-content i {
+            color: #0088cc;
+            font-size: 2rem;
+        }
+
+        .card-content h4 {
+            margin: 0;
+            text-align: center;
+            color: #2c3e50;
+            font-size: 1.1rem;
+        }
+
+        .status-badge {
+            background-color: #28a745;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.875rem;
+        }
+
+        /* Responsividade para Grupos */
+        @media (max-width: 1200px) {
+            .grupos {
+                padding: 3rem 1.5rem;
+            }
+
+            .grupos h2 {
+                font-size: 2rem;
+            }
+
+            .estado-nome {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .grupos {
+                padding: 2rem 1rem;
+            }
+
+            .grupos h2 {
+                font-size: 1.8rem;
+                margin-bottom: 2rem;
+            }
+
+            .microregioes-grid {
+                grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+                gap: 1rem;
+            }
+
+            .card-content {
+                padding: 1.25rem;
+            }
+
+            .estado-cell {
+                padding: 1rem;
+            }
+
+            .estado-info i {
+                font-size: 1rem;
+            }
+
+            .estado-nome {
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -264,12 +546,35 @@
         const buscarGrupoBtn = document.getElementById('buscar-grupo');
         const gruposContainer = document.getElementById('grupos-container');
 
+        // Mapeamento de estados
+        const estadosMap = {
+            'AC': 'Acre', 'AL': 'Alagoas', 'AP': 'Amapá', 'AM': 'Amazonas',
+            'BA': 'Bahia', 'CE': 'Ceará', 'DF': 'Distrito Federal',
+            'ES': 'Espírito Santo', 'GO': 'Goiás', 'MA': 'Maranhão',
+            'MT': 'Mato Grosso', 'MS': 'Mato Grosso do Sul', 'MG': 'Minas Gerais',
+            'PA': 'Pará', 'PB': 'Paraíba', 'PR': 'Paraná', 'PE': 'Pernambuco',
+            'PI': 'Piauí', 'RJ': 'Rio de Janeiro', 'RN': 'Rio Grande do Norte',
+            'RS': 'Rio Grande do Sul', 'RO': 'Rondônia', 'RR': 'Roraima',
+            'SC': 'Santa Catarina', 'SP': 'São Paulo', 'SE': 'Sergipe',
+            'TO': 'Tocantins'
+        };
+
+        // Função para remover acentos
+        function removerAcentos(str) {
+            return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        }
+
+        // Função para gerar slug da URL
+        function gerarSlug(microregiao, estado) {
+            return `${removerAcentos(microregiao).toLowerCase().replace(/ /g, '-')}-${estado.toLowerCase()}`;
+        }
+
         // Preenche o select de estados
         const estados = [...new Set(gruposData.map(grupo => grupo.estado))].sort();
         estados.forEach(estado => {
             const option = document.createElement('option');
             option.value = estado;
-            option.textContent = estado;
+            option.textContent = `${estadosMap[estado]} (${estado})`;
             estadoSelect.appendChild(option);
         });
 
@@ -299,37 +604,126 @@
             if (microregiao) {
                 const grupo = gruposData.find(g => g.microregiao === microregiao);
                 if (grupo) {
-                    const slug = `${grupo.microregiao.split('-')[0].toLowerCase().replace(' ', '-')}-${grupo.estado.toLowerCase()}`;
+                    const slug = gerarSlug(grupo.microregiao, grupo.estado);
                     window.location.href = `${slug}.html`;
                 }
             }
         });
 
-        // Atualiza a tabela de grupos quando um estado é selecionado
-        estadoSelect.addEventListener('change', function() {
-            const estadoSelecionado = this.value;
-            if (estadoSelecionado) {
-                const gruposDoEstado = gruposData.filter(grupo => grupo.estado === estadoSelecionado);
+        // Função para exibir os grupos disponíveis
+        function exibirGruposDisponiveis() {
+            // Obter estados e ordenar alfabeticamente pelo nome completo
+            const estados = [...new Set(gruposData.map(g => g.estado))];
+            const estadosOrdenados = estados.sort((a, b) => {
+                const nomeA = estadosMap[a] || a;
+                const nomeB = estadosMap[b] || b;
+                return nomeA.localeCompare(nomeB);
+            });
+            
+            gruposContainer.innerHTML = ''; // Limpa o container
+            
+            // Criar tabela de estados
+            const estadosTabela = document.createElement('div');
+            estadosTabela.className = 'estados-tabela';
+            gruposContainer.appendChild(estadosTabela);
+            
+            estadosOrdenados.forEach(estado => {
+                // Criar linha do estado
+                const estadoRow = document.createElement('div');
+                estadoRow.className = 'estado-row';
+                estadoRow.id = `estado-${estado}`;
                 
-                let html = '<table class="grupos-table">';
-                html += '<thead><tr><th>Microregião</th><th>Link</th></tr></thead><tbody>';
+                // Criar célula do estado
+                const estadoCell = document.createElement('div');
+                estadoCell.className = 'estado-cell';
                 
-                gruposDoEstado.forEach(grupo => {
-                    const slug = `${grupo.microregiao.split('-')[0].toLowerCase().replace(' ', '-')}-${grupo.estado.toLowerCase()}`;
-                    html += `
-                        <tr>
-                            <td>${grupo.microregiao}</td>
-                            <td><a href="${slug}.html" class="btn-link">Ver Página do Grupo</a></td>
-                        </tr>
-                    `;
+                // Criar container de informações do estado
+                const estadoInfo = document.createElement('div');
+                estadoInfo.className = 'estado-info';
+                
+                // Ícone do estado
+                const estadoIcon = document.createElement('i');
+                estadoIcon.className = 'fas fa-map-marker-alt';
+                
+                // Título do estado com nome completo e sigla
+                const estadoNome = document.createElement('span');
+                estadoNome.className = 'estado-nome';
+                estadoNome.innerHTML = `${estadosMap[estado]} <span class="estado-sigla">(${estado})</span>`;
+                
+                // Adicionar elementos à informação do estado
+                estadoInfo.appendChild(estadoIcon);
+                estadoInfo.appendChild(estadoNome);
+                
+                // Ícone de toggle
+                const toggleIcon = document.createElement('i');
+                toggleIcon.className = 'fas fa-chevron-down toggle-icon';
+                
+                // Adicionar elementos à célula
+                estadoCell.appendChild(estadoInfo);
+                estadoCell.appendChild(toggleIcon);
+                
+                // Adicionar evento de clique para expandir/contrair
+                estadoCell.addEventListener('click', () => {
+                    estadoRow.classList.toggle('active');
                 });
                 
-                html += '</tbody></table>';
-                gruposContainer.innerHTML = html;
-            } else {
-                gruposContainer.innerHTML = '';
-            }
-        });
+                estadoRow.appendChild(estadoCell);
+                
+                // Container para as microregiões
+                const microregioesContainer = document.createElement('div');
+                microregioesContainer.className = 'microregioes-container';
+                
+                const microregioesGrid = document.createElement('div');
+                microregioesGrid.className = 'microregioes-grid';
+                microregioesContainer.appendChild(microregioesGrid);
+                
+                // Obter e ordenar as microregiões deste estado
+                const microregioes = [...new Set(
+                    gruposData
+                        .filter(g => g.estado === estado)
+                        .map(g => g.microregiao)
+                )].sort();
+                
+                // Criar cards para cada microregião
+                microregioes.forEach(microregiao => {
+                    const grupo = gruposData.find(g => 
+                        g.estado === estado && 
+                        g.microregiao === microregiao
+                    );
+                    
+                    const card = document.createElement('a');
+                    const slug = gerarSlug(grupo.microregiao, grupo.estado);
+                    card.href = `${slug}.html`;
+                    card.className = 'microregiao-card';
+                    card.setAttribute('title', `Ver página do grupo de ${microregiao}`);
+                    
+                    const cardContent = document.createElement('div');
+                    cardContent.className = 'card-content';
+                    
+                    const icon = document.createElement('i');
+                    icon.className = 'fab fa-telegram';
+                    
+                    const title = document.createElement('h4');
+                    title.textContent = microregiao;
+                    
+                    const status = document.createElement('span');
+                    status.className = 'status-badge';
+                    status.textContent = 'Ver Página';
+                    
+                    cardContent.appendChild(icon);
+                    cardContent.appendChild(title);
+                    cardContent.appendChild(status);
+                    card.appendChild(cardContent);
+                    microregioesGrid.appendChild(card);
+                });
+                
+                estadoRow.appendChild(microregioesContainer);
+                estadosTabela.appendChild(estadoRow);
+            });
+        }
+
+        // Inicializa a lista de estados e grupos
+        exibirGruposDisponiveis();
     });
     </script>
 </body>
