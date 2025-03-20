@@ -1,53 +1,46 @@
-import os
-import threading
-from queue import Queue
-import json
-from datetime import datetime
-
-# Template base da página
-PAGE_TEMPLATE = '''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plantão Médico {city} {state} | Vagas e Oportunidades para Médicos</title>
-    <meta name="description" content="Encontre plantões médicos em {city}-{state}. Vagas urgentes, escalas mensais e oportunidades para médicos. Conecte-se diretamente com hospitais e clínicas da região.">
-    <meta name="keywords" content="plantão médico {city}, vaga médico {city}, escala médica {city} {state}, trabalho médico {city}, oportunidades médicas {state_name}, plantões hospital {city}">
+    <title>Plantão Médico Bertolínia PI | Vagas e Oportunidades para Médicos</title>
+    <meta name="description" content="Encontre plantões médicos em Bertolínia-PI. Vagas urgentes, escalas mensais e oportunidades para médicos. Conecte-se diretamente com hospitais e clínicas da região.">
+    <meta name="keywords" content="plantão médico Bertolínia, vaga médico Bertolínia, escala médica Bertolínia PI, trabalho médico Bertolínia, oportunidades médicas , plantões hospital Bertolínia">
     <meta name="author" content="Grupo de Plantões Médicos Brasil">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://plantoesmedicosbrasil.com.br/{slug}">
+    <link rel="canonical" href="https://plantoesmedicosbrasil.com.br/bertolinia-pi">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://plantoesmedicosbrasil.com.br/{slug}">
-    <meta property="og:title" content="Plantão Médico {city} {state} | Vagas e Oportunidades">
-    <meta property="og:description" content="Encontre plantões médicos em {city}-{state}. Vagas urgentes e oportunidades para médicos. Conecte-se com hospitais e clínicas da região.">
-    <meta property="og:image" content="https://plantoesmedicosbrasil.com.br/images/{slug}.jpg">
+    <meta property="og:url" content="https://plantoesmedicosbrasil.com.br/bertolinia-pi">
+    <meta property="og:title" content="Plantão Médico Bertolínia PI | Vagas e Oportunidades">
+    <meta property="og:description" content="Encontre plantões médicos em Bertolínia-PI. Vagas urgentes e oportunidades para médicos. Conecte-se com hospitais e clínicas da região.">
+    <meta property="og:image" content="https://plantoesmedicosbrasil.com.br/images/bertolinia-pi.jpg">
 
     <!-- Schema.org markup for Google -->
     <script type="application/ld+json">
-    {{
+    {
       "@context": "https://schema.org",
       "@type": "JobPosting",
-      "title": "Plantões Médicos em {city}-{state}",
-      "description": "Oportunidades de plantões médicos em {city}. Conecte-se com hospitais e clínicas da região.",
-      "identifier": {{
+      "title": "Plantões Médicos em Bertolínia-PI",
+      "description": "Oportunidades de plantões médicos em Bertolínia. Conecte-se com hospitais e clínicas da região.",
+      "identifier": {
         "@type": "PropertyValue",
         "name": "Grupo de Plantões Médicos Brasil",
-        "value": "GPMB-{code}"
-      }},
-      "jobLocation": {{
+        "value": "GPMB-BER"
+      },
+      "jobLocation": {
         "@type": "Place",
-        "address": {{
+        "address": {
           "@type": "PostalAddress",
-          "addressLocality": "{city}",
-          "addressRegion": "{state}",
+          "addressLocality": "Bertolínia",
+          "addressRegion": "PI",
           "addressCountry": "BR"
-        }}
-      }},
+        }
+      },
       "employmentType": ["FULL_TIME", "PART_TIME", "TEMPORARY"],
       "occupationalCategory": "Medical Doctors"
-    }}
+    }
     </script>
 
     <!-- Favicon -->
@@ -85,11 +78,11 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
         <!-- Hero Section -->
         <section class="hero-local">
             <div class="hero-content">
-                <h1>Plantões Médicos em {city}-{state}</h1>
-                <p>Encontre as melhores oportunidades de plantão médico em {city} e região</p>
+                <h1>Plantões Médicos em Bertolínia-PI</h1>
+                <p>Encontre as melhores oportunidades de plantão médico em Bertolínia e região</p>
                 <div class="cta-buttons">
-                    <a href="{telegram_link}" class="btn-primary">
-                        Entrar no Grupo de {city} <i class="fab fa-telegram"></i>
+                    <a href="https://t.me/+za_TAXMHj9g1NmEx" class="btn-primary">
+                        Entrar no Grupo de Bertolínia <i class="fab fa-telegram"></i>
                     </a>
                 </div>
             </div>
@@ -98,7 +91,7 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
         <!-- Local Info Section -->
         <section id="informacoes" class="local-info">
             <div class="container">
-                <h2>Informações sobre Plantões em {city}</h2>
+                <h2>Informações sobre Plantões em Bertolínia</h2>
                 <div class="info-grid">
                     <div class="info-card">
                         <i class="fas fa-hospital"></i>
@@ -146,9 +139,9 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
         <!-- CTA Section -->
         <section id="grupo-telegram" class="cta-section">
             <div class="container">
-                <h2>Junte-se ao Grupo de {city}</h2>
-                <p>Conecte-se com as melhores oportunidades de plantão médico em {city} e região</p>
-                <a href="{telegram_link}" class="btn-telegram">
+                <h2>Junte-se ao Grupo de Bertolínia</h2>
+                <p>Conecte-se com as melhores oportunidades de plantão médico em Bertolínia e região</p>
+                <a href="https://t.me/+za_TAXMHj9g1NmEx" class="btn-telegram">
                     <i class="fab fa-telegram"></i> Entrar no Grupo do Telegram
                 </a>
             </div>
@@ -192,7 +185,7 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
                     </div>
                 </div>
                 <div class="cta-empresas">
-                    <a href="{telegram_link}" class="btn-empresas">
+                    <a href="https://t.me/+za_TAXMHj9g1NmEx" class="btn-empresas">
                         <i class="fab fa-telegram"></i> Participar do Grupo
                     </a>
                 </div>
@@ -203,21 +196,21 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
         <section id="compartilhar" class="compartilhar">
             <div class="container">
                 <h2>Compartilhe esta Oportunidade</h2>
-                <p>Ajude outros médicos a encontrarem plantões em {city}</p>
+                <p>Ajude outros médicos a encontrarem plantões em Bertolínia</p>
                 <div class="share-buttons">
-                    <a href="https://wa.me/?text=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20{city}-{state}!%20Acesse%20https://plantoesmedicosbrasil.com.br/{slug}" target="_blank" class="share-button share-whatsapp">
+                    <a href="https://wa.me/?text=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20Bertolínia-PI!%20Acesse%20https://plantoesmedicosbrasil.com.br/bertolinia-pi" target="_blank" class="share-button share-whatsapp">
                         <i class="fab fa-whatsapp"></i> WhatsApp
                     </a>
-                    <a href="https://t.me/share/url?url=https://plantoesmedicosbrasil.com.br/{slug}&text=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20{city}-{state}!" target="_blank" class="share-button share-telegram">
+                    <a href="https://t.me/share/url?url=https://plantoesmedicosbrasil.com.br/bertolinia-pi&text=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20Bertolínia-PI!" target="_blank" class="share-button share-telegram">
                         <i class="fab fa-telegram"></i> Telegram
                     </a>
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://plantoesmedicosbrasil.com.br/{slug}" target="_blank" class="share-button share-facebook">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://plantoesmedicosbrasil.com.br/bertolinia-pi" target="_blank" class="share-button share-facebook">
                         <i class="fab fa-facebook"></i> Facebook
                     </a>
-                    <a href="https://twitter.com/intent/tweet?url=https://plantoesmedicosbrasil.com.br/{slug}&text=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20{city}-{state}!" target="_blank" class="share-button share-twitter">
+                    <a href="https://twitter.com/intent/tweet?url=https://plantoesmedicosbrasil.com.br/bertolinia-pi&text=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20Bertolínia-PI!" target="_blank" class="share-button share-twitter">
                         <i class="fab fa-twitter"></i> Twitter
                     </a>
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://plantoesmedicosbrasil.com.br/{slug}&title=Plant%C3%B5es%20M%C3%A9dicos%20em%20{city}-{state}&summary=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20{city}-{state}!" target="_blank" class="share-button share-linkedin">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://plantoesmedicosbrasil.com.br/bertolinia-pi&title=Plant%C3%B5es%20M%C3%A9dicos%20em%20Bertolínia-PI&summary=Encontre%20Plant%C3%B5es%20M%C3%A9dicos%20em%20Bertolínia-PI!" target="_blank" class="share-button share-linkedin">
                         <i class="fab fa-linkedin"></i> LinkedIn
                     </a>
                 </div>
@@ -246,7 +239,7 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
                     <h3>Contato</h3>
                     <p><i class="fas fa-envelope"></i> Email: contato@plantoesmedicosbrasil.com.br</p>
                     <div class="social-links">
-                        <a href="{telegram_link}" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://t.me/+za_TAXMHj9g1NmEx" target="_blank"><i class="fab fa-telegram"></i></a>
                         <a href="https://instagram.com/plantoesmedicosbrasil" target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="https://linkedin.com/company/plantoesmedicosbrasil" target="_blank"><i class="fab fa-linkedin"></i></a>
                         <a href="https://wa.me/5511999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
@@ -263,83 +256,4 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
     <script src="js/data.js"></script>
     <script src="js/local.js"></script>
 </body>
-</html>'''
-
-def create_slug(city, state):
-    """Cria um slug para o nome do arquivo"""
-    return f"{city.lower().replace(' ', '-').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ã', 'a').replace('õ', 'o')}-{state.lower()}"
-
-def create_code(city):
-    """Cria um código único para a cidade"""
-    return city[:3].upper()
-
-def generate_page(city, state, state_name, telegram_link):
-    """Gera uma página HTML para uma cidade específica"""
-    slug = create_slug(city, state)
-    code = create_code(city)
-    
-    # Substitui as variáveis no template
-    content = PAGE_TEMPLATE.format(
-        city=city,
-        state=state,
-        state_name=state_name,
-        slug=slug,
-        code=code,
-        telegram_link=telegram_link
-    )
-    
-    # Cria o arquivo
-    filename = f"{slug}.html"
-    with open(filename, 'w', encoding='utf-8') as f:
-        f.write(content)
-    
-    print(f"Página criada: {filename}")
-
-def worker(queue):
-    """Função executada por cada thread"""
-    while True:
-        try:
-            city, state, state_name, telegram_link = queue.get_nowait()
-            generate_page(city, state, state_name, telegram_link)
-        except Queue.Empty:
-            break
-
-def main():
-    # Lista de cidades e seus dados
-    cities = [
-        ("Paragominas", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        ("Itaituba", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        ("Guamá", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        ("Belém", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        ("Castanhal", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        ("Bragança", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        ("Abaetetuba", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        ("Cametá", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        ("Tucuruí", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        ("Parauapebas", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        ("Canaã dos Carajás", "PA", "Pará", "https://t.me/+b4STrHJLPvdlNWQx"),
-        # Adicione mais cidades conforme necessário
-    ]
-    
-    # Cria uma fila com todas as cidades
-    queue = Queue()
-    for city_data in cities:
-        queue.put(city_data)
-    
-    # Cria e inicia as threads
-    threads = []
-    num_threads = min(10, len(cities))  # Usa no máximo 10 threads
-    
-    for _ in range(num_threads):
-        t = threading.Thread(target=worker, args=(queue,))
-        t.start()
-        threads.append(t)
-    
-    # Aguarda todas as threads terminarem
-    for t in threads:
-        t.join()
-    
-    print("Todas as páginas foram geradas!")
-
-if __name__ == "__main__":
-    main() 
+</html>

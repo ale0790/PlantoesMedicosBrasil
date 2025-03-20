@@ -533,6 +533,306 @@ const gruposData = [
     "estado": "MA",
     "link": "https://t.me/+xl7PFX7B_1g4NGMx",
     "status": "Ativo"
+  },
+  {
+    "microregiao": "Pau dos Ferros",
+    "estado": "RN",
+    "link": "https://t.me/+9uEFPEreAy9lYzgx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Serra de São Miguel",
+    "estado": "RN",
+    "link": "https://t.me/+FMF9q3ETeQs0MTkx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Vale do Açu",
+    "estado": "RN",
+    "link": "https://t.me/+VZXDMIOYeBgzZmZh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Médio Oeste",
+    "estado": "RN",
+    "link": "https://t.me/+g8FfRPJnVC42NWUx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Chapada do Apodi",
+    "estado": "RN",
+    "link": "https://t.me/+-SNdwMsx5lgwNGRh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Mossoró",
+    "estado": "RN",
+    "link": "https://t.me/+uYri4NPsNiQwMTAx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Brejo Santo",
+    "estado": "CE",
+    "link": "https://t.me/+3Pkti7RIq41mNDNh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Cariri",
+    "estado": "CE",
+    "link": "https://t.me/+7fVSgI3AM-00MWUx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Barro",
+    "estado": "CE",
+    "link": "https://t.me/+hJOY_6hL5xVmNmNh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Caririaçu",
+    "estado": "CE",
+    "link": "https://t.me/+hoaYVn7LLKo1NDUx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Chapada do Araripe",
+    "estado": "CE",
+    "link": "https://t.me/+fsR_2LBHGto4MmI5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Lavras da Mangabeira",
+    "estado": "CE",
+    "link": "https://t.me/+zDtBXDiJRqw5NmIx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Várzea Alegre",
+    "estado": "CE",
+    "link": "https://t.me/+De5VD0_gvzwyMWYx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Iguatu",
+    "estado": "CE",
+    "link": "https://t.me/+d-bGygzVQaQ1OTIx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Serra do Pereiro",
+    "estado": "CE",
+    "link": "https://t.me/+Gs-HkDOVvKJjM2Jh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Médio Jaguaribe",
+    "estado": "CE",
+    "link": "https://t.me/+xh3laWr-cIllMGI5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Baixo Jaguaribe",
+    "estado": "CE",
+    "link": "https://t.me/+VJXM8YGC3QpkNzQ5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Litoral de Aracati",
+    "estado": "CE",
+    "link": "https://t.me/+M69xu9txaoxkMDNh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Sertão de Senador Pompeu",
+    "estado": "CE",
+    "link": "https://t.me/+XuwEWFwbpKI0YTI5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Sertão de Inhamuns",
+    "estado": "CE",
+    "link": "https://t.me/+r0uzFrl7NsszN2Rh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Sertão de Quixeramobim",
+    "estado": "CE",
+    "link": "https://t.me/+ts1dMF8NMogzMWMx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Sertão de Cratéus",
+    "estado": "CE",
+    "link": "https://t.me/+zL6Fh-GS86M2ZDEx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Pacajus",
+    "estado": "CE",
+    "link": "https://t.me/+v8xrK2KrgrAzNjUx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Fortaleza",
+    "estado": "CE",
+    "link": "https://t.me/+kpAXAgQzb_1kNTVh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Cascavel",
+    "estado": "CE",
+    "link": "https://t.me/+gUDVfNd8-dI4M2M5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Chorozinho",
+    "estado": "CE",
+    "link": "https://t.me/+o8uL93qAqpQ2M2Ex",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Baturité",
+    "estado": "CE",
+    "link": "https://t.me/+0nZDUj3EL7MwNTlh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Canindé",
+    "estado": "CE",
+    "link": "https://t.me/+Lem2QNqXNxpiYjM5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Médio Curu",
+    "estado": "CE",
+    "link": "https://t.me/+1xyldRl1yxgxNTBh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Uruburetama",
+    "estado": "CE",
+    "link": "https://t.me/+Yii6d72FLKw1ZjAx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Baixo Curu",
+    "estado": "CE",
+    "link": "https://t.me/+VZ9T_fE8f1k1NDRh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Itapipoca",
+    "estado": "CE",
+    "link": "https://t.me/+fQ3SLRzZKtQ5NGIx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Santa Quitéria",
+    "estado": "CE",
+    "link": "https://t.me/+fepb1TXtNGRhZWUx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Ipu",
+    "estado": "CE",
+    "link": "https://t.me/+fOsi5kVKy-o5NDJh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Sobral",
+    "estado": "CE",
+    "link": "https://t.me/+_cE05SQP7601YmFh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Meruoca",
+    "estado": "CE",
+    "link": "https://t.me/+pu1tzb-Vxgs5YTgx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Coreaú",
+    "estado": "CE",
+    "link": "https://t.me/+xn5S09JstGBmZWRh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Ibiapaba",
+    "estado": "CE",
+    "link": "https://t.me/+mJXiq4gQGz5iYmQx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Litoral de Camocim e Acaraú",
+    "estado": "CE",
+    "link": "https://t.me/+_1ws4Wj6Q8JhZDJh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Alto Médio Canindé",
+    "estado": "PI",
+    "link": "https://t.me/+7Tu5vHUPnPM0Mzlh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Pio IX",
+    "estado": "PI",
+    "link": "https://t.me/+B1fjxrjhpsZlOTFh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Picos",
+    "estado": "PI",
+    "link": "https://t.me/+8G7YBGcxDPo5NjVh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Chapadas do Extremo Sul Piauiense",
+    "estado": "PI",
+    "link": "https://t.me/+C0VGid1x7N5kYjgx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "São Raimundo Nonato",
+    "estado": "PI",
+    "link": "https://t.me/+vn97dqw7Xo8wNDkx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Alto Médio Gurguéia",
+    "estado": "PI",
+    "link": "https://t.me/+utouJaFA4u03OTA5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Floriano",
+    "estado": "PI",
+    "link": "https://t.me/+3RGXofsweHMxMmQx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Bertolínia",
+    "estado": "PI",
+    "link": "https://t.me/+za_TAXMHj9g1NmEx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Alto Parnaíba Piauiense",
+    "estado": "PI",
+    "link": "https://t.me/+xWT4k8-_c4hkMzQx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Valença do Piauí",
+    "estado": "PI",
+    "link": "https://t.me/+W1ACRcUjdFBiYmIx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Médio Parnaíba Piauiense",
+    "estado": "PI",
+    "link": "https://t.me/+vcp-3NJwSoVhMmJh",
+    "status": "Ativo"
   }
 ];
 

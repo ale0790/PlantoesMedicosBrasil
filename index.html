@@ -114,7 +114,7 @@
                 <select id="microregiao-select">
                     <option value="">Selecione sua Microregião</option>
                 </select>
-                <button id="buscar-grupo" class="btn-primary">Buscar Grupo</button>
+                <button id="buscar-grupo" class="btn-primary">Ver Página do Grupo</button>
             </div>
         </div>
     </section>
@@ -257,6 +257,80 @@
 
     <!-- Scripts -->
     <script src="js/data.js"></script>
-    <script src="js/main.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const estadoSelect = document.getElementById('estado-select');
+        const microregiaoSelect = document.getElementById('microregiao-select');
+        const buscarGrupoBtn = document.getElementById('buscar-grupo');
+        const gruposContainer = document.getElementById('grupos-container');
+
+        // Preenche o select de estados
+        const estados = [...new Set(gruposData.map(grupo => grupo.estado))].sort();
+        estados.forEach(estado => {
+            const option = document.createElement('option');
+            option.value = estado;
+            option.textContent = estado;
+            estadoSelect.appendChild(option);
+        });
+
+        // Atualiza as microregiões quando um estado é selecionado
+        estadoSelect.addEventListener('change', function() {
+            microregiaoSelect.innerHTML = '<option value="">Selecione sua Microregião</option>';
+            const estadoSelecionado = this.value;
+            
+            if (estadoSelecionado) {
+                const microregioes = gruposData
+                    .filter(grupo => grupo.estado === estadoSelecionado)
+                    .map(grupo => grupo.microregiao)
+                    .sort();
+                
+                microregioes.forEach(microregiao => {
+                    const option = document.createElement('option');
+                    option.value = microregiao;
+                    option.textContent = microregiao;
+                    microregiaoSelect.appendChild(option);
+                });
+            }
+        });
+
+        // Redireciona para a página do grupo quando o botão é clicado
+        buscarGrupoBtn.addEventListener('click', function() {
+            const microregiao = microregiaoSelect.value;
+            if (microregiao) {
+                const grupo = gruposData.find(g => g.microregiao === microregiao);
+                if (grupo) {
+                    const slug = `${grupo.microregiao.split('-')[0].toLowerCase().replace(' ', '-')}-${grupo.estado.toLowerCase()}`;
+                    window.location.href = `${slug}.html`;
+                }
+            }
+        });
+
+        // Atualiza a tabela de grupos quando um estado é selecionado
+        estadoSelect.addEventListener('change', function() {
+            const estadoSelecionado = this.value;
+            if (estadoSelecionado) {
+                const gruposDoEstado = gruposData.filter(grupo => grupo.estado === estadoSelecionado);
+                
+                let html = '<table class="grupos-table">';
+                html += '<thead><tr><th>Microregião</th><th>Link</th></tr></thead><tbody>';
+                
+                gruposDoEstado.forEach(grupo => {
+                    const slug = `${grupo.microregiao.split('-')[0].toLowerCase().replace(' ', '-')}-${grupo.estado.toLowerCase()}`;
+                    html += `
+                        <tr>
+                            <td>${grupo.microregiao}</td>
+                            <td><a href="${slug}.html" class="btn-link">Ver Página do Grupo</a></td>
+                        </tr>
+                    `;
+                });
+                
+                html += '</tbody></table>';
+                gruposContainer.innerHTML = html;
+            } else {
+                gruposContainer.innerHTML = '';
+            }
+        });
+    });
+    </script>
 </body>
 </html>
