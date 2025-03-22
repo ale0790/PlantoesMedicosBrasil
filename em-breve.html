@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo em Breve | Plantões Médicos Brasil</title>
+    <meta name="description" content="Grupo de plantões médicos em breve para sua região. Retorne em alguns dias para encontrar o grupo ativo.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .em-breve-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .em-breve-icon {
+            font-size: 4rem;
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .em-breve-title {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .em-breve-message {
+            text-align: center;
+            color: #6c757d;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .em-breve-steps {
+            margin-top: 2rem;
+        }
+
+        .em-breve-step {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .em-breve-step i {
+            font-size: 1.5rem;
+            color: #007bff;
+            margin-right: 1rem;
+        }
+
+        .em-breve-step p {
+            margin: 0;
+            color: #495057;
+        }
+
+        .voltar-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 2rem;
+            transition: background 0.3s;
+        }
+
+        .voltar-button:hover {
+            background: #0056b3;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1><i class="fas fa-hospital-user"></i> Plantões Médicos Brasil</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Início</a>
+                <a href="index.html#como-funciona"><i class="fas fa-question-circle"></i> Como Funciona</a>
+                <a href="index.html#para-medicos"><i class="fas fa-user-md"></i> Para Médicos</a>
+                <a href="index.html#para-empresas"><i class="fas fa-building"></i> Para Empresas</a>
+                <a href="index.html#grupos"><i class="fas fa-users"></i> Grupos</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <div class="em-breve-container">
+            <div class="em-breve-icon">
+                <i class="fas fa-clock"></i>
+            </div>
+            <h1 class="em-breve-title">Grupo em Breve</h1>
+            <p class="em-breve-message">
+                Estamos criando manualmente os grupos do Telegram para cada microrregião do Brasil. 
+                Por favor, retorne em alguns dias para encontrar o grupo ativo para sua região.
+            </p>
+
+            <div class="em-breve-steps">
+                <div class="em-breve-step">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Identificamos sua microrregião</p>
+                </div>
+                <div class="em-breve-step">
+                    <i class="fas fa-spinner"></i>
+                    <p>Estamos criando o grupo do Telegram</p>
+                </div>
+                <div class="em-breve-step">
+                    <i class="fas fa-calendar-alt"></i>
+                    <p>O grupo estará disponível em breve</p>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <a href="index.html" class="voltar-button">
+                    <i class="fas fa-arrow-left"></i> Voltar para a Página Inicial
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Grupo de Plantões Médicos Brasil</h3>
+                    <p>Conectando médicos e empresas em todo o Brasil</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <a href="index.html"><i class="fas fa-home"></i> Início</a>
+                    <a href="index.html#como-funciona"><i class="fas fa-question-circle"></i> Como Funciona</a>
+                    <a href="index.html#para-medicos"><i class="fas fa-user-md"></i> Para Médicos</a>
+                    <a href="index.html#para-empresas"><i class="fas fa-building"></i> Para Empresas</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Grupo de Plantões Médicos Brasil. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
