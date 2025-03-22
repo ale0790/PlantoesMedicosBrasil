@@ -833,6 +833,306 @@ const gruposData = [
     "estado": "PI",
     "link": "https://t.me/+vcp-3NJwSoVhMmJh",
     "status": "Ativo"
+  },
+  {
+    "microregiao": "Vitória de Santo Antão",
+    "estado": "PE",
+    "link": "https://t.me/+Fk-gQx6zDL03MmMx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Mata Setentrional Pernambucana",
+    "estado": "PE",
+    "link": "https://t.me/+2_45VRfYXoRmYTU5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Brejo Pernambucano",
+    "estado": "PE",
+    "link": "https://t.me/+8Thkkv__FNo2Y2Ux",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Garanhuns",
+    "estado": "PE",
+    "link": "https://t.me/+86qk4LaFujxmODkx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Médio Capibaribe",
+    "estado": "PE",
+    "link": "https://t.me/+qC4zcooiWoZhYmFh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Alto Capibaribe",
+    "estado": "PE",
+    "link": "https://t.me/+aSrM8tYWSFE5OWI5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Vale do Ipojuca",
+    "estado": "PE",
+    "link": "https://t.me/+xprCYiW_OQA3ZWVh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Vale do Ipanema",
+    "estado": "PE",
+    "link": "https://t.me/+QFVjtUKL8DAzOWVh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Itaparica",
+    "estado": "PE",
+    "link": "https://t.me/+nqFug_MIqPdmOGJh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Petrolina",
+    "estado": "PE",
+    "link": "https://t.me/+tfCY8_Z_9pMxZjgx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Sertão do Moxotó",
+    "estado": "PE",
+    "link": "https://t.me/+WBNl3DA0TKM2NDhh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Pajeú",
+    "estado": "PE",
+    "link": "https://t.me/+ZK17_d3LcM9kYjMx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Salgueiro",
+    "estado": "PE",
+    "link": "https://t.me/+IHb63WRvxwZlMTFh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Araripina",
+    "estado": "PE",
+    "link": "https://t.me/+UUR0xo86CChhODJh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Litoral Sul",
+    "estado": "PB",
+    "link": "https://t.me/+HXEPnTIYiac0ODU5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "João Pessoa",
+    "estado": "PB",
+    "link": "https://t.me/+YzXjCFrR3scyN2Q5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Sapé",
+    "estado": "PB",
+    "link": "https://t.me/+sJUgmIoh9xQyMjAx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Litoral Norte",
+    "estado": "PB",
+    "link": "https://t.me/+nDPCXfLEbt1lNTFh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Umbuzeiro",
+    "estado": "PB",
+    "link": "https://t.me/+OIxi-IuYvwhhZjcx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Itabaiana",
+    "estado": "PB",
+    "link": "https://t.me/+UROUN6_1ZUc4MGEx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Campina Grande",
+    "estado": "PB",
+    "link": "https://t.me/+hZi9CUPHFNRlODQx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Guarabira",
+    "estado": "PB",
+    "link": "https://t.me/+pH4wCGkGwN8zMTcx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Brejo Paraibano",
+    "estado": "PB",
+    "link": "https://t.me/+djQGMG-1ZjBjNTMx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Esperança",
+    "estado": "PB",
+    "link": "https://t.me/+gCkFLS93kRpiODMx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Curimataú Oriental",
+    "estado": "PB",
+    "link": "https://t.me/+vZATUTy36pgzY2Fh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Curimataú Ocidental",
+    "estado": "PB",
+    "link": "https://t.me/+mblG8eDID8Y3OTZh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Cariri Oriental",
+    "estado": "PB",
+    "link": "https://t.me/+hUKkD15LcqNkYTdh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Cariri Ocidental",
+    "estado": "PB",
+    "link": "https://t.me/+rn46nMqrxHU5MDg5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Seridó Oriental Paraibano",
+    "estado": "PB",
+    "link": "https://t.me/+BFy6U5Aabs5iZmQx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Seridó Ocidental Paraibano",
+    "estado": "PB",
+    "link": "https://t.me/+l15wlqFOwBw5YWZh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Serra do Teixeira",
+    "estado": "PB",
+    "link": "https://t.me/+pZnnEMtZrsc4MzYx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Itaporanga",
+    "estado": "PB",
+    "link": "https://t.me/+HySX3MSA174xMmU5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Piancó",
+    "estado": "PB",
+    "link": "https://t.me/+5enxboHMTuoxY2Mx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Patos",
+    "estado": "PB",
+    "link": "https://t.me/+nNZXgN4VzrkyYmEx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Sousa",
+    "estado": "PB",
+    "link": "https://t.me/+dclLrzjsCu42NjUx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Cajazeiras",
+    "estado": "PB",
+    "link": "https://t.me/+217XOffsjxU5YjEx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Catolé do Rocha",
+    "estado": "PB",
+    "link": "https://t.me/+srFayXJYnfI3MDkx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Litoral Sul",
+    "estado": "RN",
+    "link": "https://t.me/+G89IJOMkZJxjNGMx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Natal",
+    "estado": "RN",
+    "link": "https://t.me/+ttO7VBY3pzYxYjVh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Macaíba",
+    "estado": "RN",
+    "link": "https://t.me/+HLXKXI34KgYwMDUx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Litoral Nordeste",
+    "estado": "RN",
+    "link": "https://t.me/+P9B6YSqrrstmN2Qx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Agreste Potiguar",
+    "estado": "RN",
+    "link": "https://t.me/+L6NcmVkp7L5hYTRh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Borborema Potiguar",
+    "estado": "RN",
+    "link": "https://t.me/+d-lE5nSFhZAxMjIx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Baixa Verde",
+    "estado": "RN",
+    "link": "https://t.me/+k9JZKb8cmSo0MzY5",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Seridó Oriental",
+    "estado": "RN",
+    "link": "https://t.me/+vX9vi-0Uur5kMDdh",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Seridó Ocidental",
+    "estado": "RN",
+    "link": "https://t.me/+2C5cF9G6LiM4MDEx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Serra de Santana",
+    "estado": "RN",
+    "link": "https://t.me/+mK5RRk4-g59iZWMx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Angicos",
+    "estado": "RN",
+    "link": "https://t.me/+igpdr1oXUNA5YjAx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Macau",
+    "estado": "RN",
+    "link": "https://t.me/+ggHHMBEbgWo0YzYx",
+    "status": "Ativo"
+  },
+  {
+    "microregiao": "Umarizal",
+    "estado": "RN",
+    "link": "https://t.me/+q9BG32rhf_M4Mjcx",
+    "status": "Ativo"
   }
 ];
 
