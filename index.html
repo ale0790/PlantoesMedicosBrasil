@@ -6,8 +6,8 @@
     <script src="js/analytics.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo de Plantões Médicos Brasil | Encontre Plantões em Sua Região</title>
-    <meta name="description" content="Encontre plantões médicos em sua região. Grupos exclusivos por microregião para médicos e empresas de plantão. Junte-se aos grupos do Telegram e encontre as melhores oportunidades.">
-    <meta name="keywords" content="plantões médicos, grupos de plantão, vagas médicas, plantões por região, telegram médicos, oportunidades médicas">
+    <meta name="description" content="Encontre plantões médicos em sua região. Grupos exclusivos por microregião para médicos e empresas de plantão. Junte-se aos grupos do Telegram e WhatsApp e encontre as melhores oportunidades.">
+    <meta name="keywords" content="plantões médicos, grupos de plantão, vagas médicas, plantões por região, telegram médicos, whatsapp médicos, oportunidades médicas">
     <meta name="author" content="Grupo de Plantões Médicos Brasil">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://plantoesmedicosbrasil.com.br">
@@ -16,14 +16,14 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://plantoesmedicosbrasil.com.br">
     <meta property="og:title" content="Grupo de Plantões Médicos Brasil | Encontre Plantões em Sua Região">
-    <meta property="og:description" content="Encontre plantões médicos em sua região. Grupos exclusivos por microregião para médicos e empresas de plantão.">
+    <meta property="og:description" content="Encontre plantões médicos em sua região. Grupos exclusivos por microregião para médicos e empresas de plantão. Junte-se aos grupos do Telegram e WhatsApp.">
     <meta property="og:image" content="https://plantoesmedicosbrasil.com.br/images/og-image.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://plantoesmedicosbrasil.com.br">
     <meta property="twitter:title" content="Grupo de Plantões Médicos Brasil | Encontre Plantões em Sua Região">
-    <meta property="twitter:description" content="Encontre plantões médicos em sua região. Grupos exclusivos por microregião para médicos e empresas de plantão.">
+    <meta property="twitter:description" content="Encontre plantões médicos em sua região. Grupos exclusivos por microregião para médicos e empresas de plantão. Junte-se aos grupos do Telegram e WhatsApp.">
     <meta property="twitter:image" content="https://plantoesmedicosbrasil.com.br/images/og-image.jpg">
 
     <!-- Favicon -->
@@ -411,9 +411,12 @@
                 <p>Selecione seu estado e microregião para encontrar o grupo específico</p>
             </div>
             <div class="card">
-                <i class="fas fa-telegram"></i>
+                <div style="display: flex; gap: 10px; justify-content: center;">
+                    <i class="fab fa-telegram" style="color: #0088cc;"></i>
+                    <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+                </div>
                 <h3>2. Entre no Grupo</h3>
-                <p>Acesse o grupo do Telegram específico para sua região</p>
+                <p>Acesse os grupos do Telegram e WhatsApp específicos para sua região</p>
             </div>
             <div class="card">
                 <i class="fas fa-handshake"></i>
@@ -700,17 +703,30 @@
                     const cardContent = document.createElement('div');
                     cardContent.className = 'card-content';
                     
-                    const icon = document.createElement('i');
-                    icon.className = 'fab fa-telegram';
+                    const iconContainer = document.createElement('div');
+                    iconContainer.className = 'icons-container';
+                    iconContainer.style.display = 'flex';
+                    iconContainer.style.gap = '10px';
+                    
+                    const telegramIcon = document.createElement('i');
+                    telegramIcon.className = 'fab fa-telegram';
+                    telegramIcon.style.color = '#0088cc';
+                    
+                    const whatsappIcon = document.createElement('i');
+                    whatsappIcon.className = 'fab fa-whatsapp';
+                    whatsappIcon.style.color = '#25D366';
+                    
+                    iconContainer.appendChild(telegramIcon);
+                    iconContainer.appendChild(whatsappIcon);
                     
                     const title = document.createElement('h4');
                     title.textContent = microregiao;
                     
                     const status = document.createElement('span');
                     status.className = 'status-badge';
-                    status.textContent = 'Ver Página';
+                    status.textContent = 'Ver Grupos';
                     
-                    cardContent.appendChild(icon);
+                    cardContent.appendChild(iconContainer);
                     cardContent.appendChild(title);
                     cardContent.appendChild(status);
                     card.appendChild(cardContent);
