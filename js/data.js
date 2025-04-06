@@ -1670,50 +1670,58 @@ const gruposData = [
   {
     "microregiao": "Uberaba",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+5sNGCwdkK05iYTg5",
+    "linkWhats": "https://chat.whatsapp.com/DTBtdT1qPbwGLe6UAYIx3T",
+    "status": "Ativo"
   },
   {
     "microregiao": "Araxá",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+8dNvapYnn38zZjkx",
+    "linkWhats": "https://chat.whatsapp.com/J5C7Jx9DUvqF4iUI8oFfqj",
+    "status": "Ativo"
   },
   {
     "microregiao": "Três Marias",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+ckMU8cOIFQA2MmQx",
+    "linkWhats": "https://chat.whatsapp.com/LTxBiafVxXL8DQnx8LuCoi",
+    "status": "Ativo"
   },
   {
     "microregiao": "Curvelo",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+qPRxdXKB9VxmNjEx",
+    "linkWhats": "https://chat.whatsapp.com/JfVqW6Ypi098QlmPtAk3wB",
+    "status": "Ativo"
   },
   {
     "microregiao": "Bom Despacho",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+GGwVarXre75kNTcx",
+    "linkWhats": "https://chat.whatsapp.com/CX6b04sZyCGFlV7fSiwV5D",
+    "status": "Ativo"
   },
   {
     "microregiao": "Sete Lagoas",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+CMGMsUYkpvExZmVh",
+    "linkWhats": "https://chat.whatsapp.com/KWA4S2HmTqx5YKhb9puwEI",
+    "status": "Ativo"
   },
   {
     "microregiao": "Conceição do Mato Dentro",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+fobi3sjSL1BhZTYx",
+    "linkWhats": "https://chat.whatsapp.com/HcVQW0RxvND9nlCpJZYxiW",
+    "status": "Ativo"
   },
   {
     "microregiao": "Pará de Minas",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+fjzjvwBfYmw5ODUx",
+    "linkWhats": "https://chat.whatsapp.com/IaC8v9UD6XW16ot7Aw6w42",
+    "status": "Ativo"
   },
   {
     "microregiao": "Belo Horizonte",
@@ -2785,14 +2793,16 @@ const gruposData = [
   {
     "microregiao": "Curitiba",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+N889JBfxdhoyOGFh",
+    "linkWhats": "https://chat.whatsapp.com/ERNsPxFiIdDD5A5TEBFIQm",
+    "status": "Ativo"
   },
   {
     "microregiao": "Paranaguá",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+tZ47kzi7XxI2MjY5",
+    "linkWhats": "https://chat.whatsapp.com/JVRuxaqywo6CCxNIs2y2vD",
+    "status": "Ativo"
   },
   {
     "microregiao": "Rio Negro",
