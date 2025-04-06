@@ -2415,116 +2415,134 @@ const gruposData = [
     "microregiao": "Piedade",
     "estado": "SP",
     "link": "https://t.me/+8qi7hTCytAYzMTYx",   
-    "linkWhats": "em-breve.html",
-    "status": "Em Breve"
+    "linkWhats": "https://chat.whatsapp.com/DyZlM7n2S8j15vkjmyKyik",
+    "status": "Ativo"
   },
   {
     "microregiao": "Sorocaba",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+Y0HG4aFm89ljNGIx",
+    "linkWhats": "https://chat.whatsapp.com/JnGpRK6kMfH3STDb0TKXrB",
+    "status": "Ativo"
   },
   {
     "microregiao": "Jundiaí",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+p65vSnWquzlkNzNh",
+    "linkWhats": "https://chat.whatsapp.com/CUH6nPK9E7f17QzrMLOgBS",
+    "status": "Ativo"
   },
   {
     "microregiao": "Bragança Paulista",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+tWoz-u1tcOJhNzgx",
+    "linkWhats": "https://chat.whatsapp.com/Gil2CQHVVi4FrTKkbymw7c",
+    "status": "Ativo"
   },
   {
     "microregiao": "Campos do Jordão",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+J_f88knTnkwxOWMx",
+    "linkWhats": "https://chat.whatsapp.com/CQOEDfNNUKy0bhQhcDkr1V",
+    "status": "Ativo"
   },
   {
     "microregiao": "São José dos Campos",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+CD9YLmhX-t0zMTMx",
+    "linkWhats": "https://chat.whatsapp.com/CUJn5fBn0fJGJcIqb77GtD",
+    "status": "Ativo"
   },
   {
     "microregiao": "Guaratinguetá",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+oJfKqE6CEZBmODcx",
+    "linkWhats": "https://chat.whatsapp.com/DSoIdjRXh7P1NKhSRSFV8h",
+    "status": "Ativo"
   },
   {
     "microregiao": "Bananal",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+8ACUKqG1U5I4Yzgx",
+    "linkWhats": "https://chat.whatsapp.com/DPUUKT09SGMCcvxVIN8wgu",
+    "status": "Ativo"
   },
   {
     "microregiao": "Paraibuna/Paraitinga",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+XXfDLsO5hPthZGEx",
+    "linkWhats": "https://chat.whatsapp.com/H4TQk1xO8luAqMMA58Jn0u",
+    "status": "Ativo"
   },
   {
     "microregiao": "Caraguatatuba",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+pJJOXK7Rq5NhNzFh",
+    "linkWhats": "https://chat.whatsapp.com/JM3VTfDwTC9J0Xg0irXThX",
+    "status": "Ativo"
   },
   {
     "microregiao": "Registro",
     "estado": "SP",
-    "link": "em-breve.html",
+    "link": "https://t.me/+Tjk5Y39zzgRjNmEx",
+    "linkWhats": "https://chat.whatsapp.com/HCLAVtWMyz19URqqP1Q09G",
     "status": "Em Breve"
   },
   {
     "microregiao": "Itanhaém",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+idxMq8HLNLw5MjQx",
+    "linkWhats": "https://chat.whatsapp.com/ES5A4NYZrCWEIpOr4vcpjr",
+    "status": "Ativo"
   },
   {
     "microregiao": "Osasco",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+rhLP3qKRK9YzYWUx",
+    "linkWhats": "https://chat.whatsapp.com/Ev4OgKMYh6HKGcaFbhTclZ",
+    "status": "Ativo"
   },
   {
     "microregiao": "Franco da Rocha",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+VGaR1OnuiL1hYjZh",
+    "linkWhats": "https://chat.whatsapp.com/I4Rm9JzRaq1CmkLJfrEAXC",
+    "status": "Ativo"
   },
   {
     "microregiao": "Guarulhos",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+JTTYXsTW33ExYWM5",
+    "linkWhats": "https://chat.whatsapp.com/DmiF2wwytUYJH9KywtOwjr",
+    "status": "Ativo"
   },
   {
     "microregiao": "Itapecerica da Serra",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+-2cFlWLdeBQzZGYx",
+    "linkWhats": "https://chat.whatsapp.com/FOm1WWoa6hSFO4cnct9qqz",
+    "status": "Ativo"
   },
   {
     "microregiao": "São Paulo",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+q537ca1wtnU2MjJh",
+    "linkWhats": "https://chat.whatsapp.com/Lf7qUU5AbPzIlvkFT1lwvp",
+    "status": "Ativo"
   },
   {
     "microregiao": "Mogi das Cruzes",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+ORobzaf1NfBiNWYx",
+    "linkWhats": "https://chat.whatsapp.com/LlJuDdhFaDQKvit7coXzwK",
+    "status": "Ativo"
   },
   {
     "microregiao": "Santos",
     "estado": "SP",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+R8rmWQedhaM2ZmQx",
+    "linkWhats": "https://chat.whatsapp.com/JqGWH5nsVn0KSnA4OrBDEi",
+    "status": "Ativo"
   },
   {
     "microregiao": "Paranavaí",
