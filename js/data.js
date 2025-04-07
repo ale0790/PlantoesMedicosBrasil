@@ -1733,128 +1733,148 @@ const gruposData = [
   {
     "microregiao": "Itabira",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+GsjmH-I23zA2NWQx",
+    "linkWhats": "https://chat.whatsapp.com/DNxE0tDLxLY7jrmvyDbyuF",
+    "status": "Ativo"
   },
   {
     "microregiao": "Itaguara",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+nhjdy3zBORE5OWQx",
+    "linkWhats": "https://chat.whatsapp.com/ESCWqiv7xBrDPxDfIJeHn8",
+    "status": "Ativo"
   },
   {
     "microregiao": "Ouro Preto",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+798YOQwLsO8wN2Vh",
+    "linkWhats": "https://chat.whatsapp.com/JrMIFT3INsi3qBprH6Qzmq",
+    "status": "Ativo"
   },
   {
     "microregiao": "Conselheiro Lafaiete",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+I60BVH8g04xiZGMx",
+    "linkWhats": "https://chat.whatsapp.com/E2itVJyI2qM1jQTfRcPQWm",
+    "status": "Ativo"
   },
   {
     "microregiao": "Guanhães",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+yvSFYzzsJSY3NWNh",
+    "linkWhats": "https://chat.whatsapp.com/EKVDOdNFXkoAgnmwLkYXE2",
+    "status": "Ativo"
   },
   {
     "microregiao": "Peçanha",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+DyUQAfKeuTA4ZWEx",
+    "linkWhats": "https://chat.whatsapp.com/HYm3u2gfIV9BgTxQH2LohK",
+    "status": "Ativo"
   },
   {
     "microregiao": "Governador Valadares",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+BYLGIMoBlhIyOWEx",
+    "linkWhats": "https://chat.whatsapp.com/CVXSVbZMar87Ign8XHzgCS",
+    "status": "Ativo"
   },
   {
     "microregiao": "Mantena",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+8_Jt4ZDIawIyNDcx",
+    "linkWhats": "https://chat.whatsapp.com/GKBcX7NfgpMLtVgdRzKLkw",
+    "status": "Ativo"
   },
   {
     "microregiao": "Ipatinga",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+EKo8T2HF5zI5NjMx",
+    "linkWhats": "https://chat.whatsapp.com/HMKeKO4J18z819odjrZgrL",
+    "status": "Ativo"
   },
   {
     "microregiao": "Caratinga",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+H94w-l-E1Ko4NDgx",
+    "linkWhats": "https://chat.whatsapp.com/GDNOWaPC4A2Fx34MoHAnNV",
+    "status": "Ativo"
   },
   {
     "microregiao": "Aimorés",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+BawLawQRDVxhMzgx",
+    "linkWhats": "https://chat.whatsapp.com/InDrZZ3f1ck6yNyBi2Pf3z",
+    "status": "Ativo"
   },
   {
     "microregiao": "Piuí",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+mTjA98ZQAgRmZDIx", 
+    "linkWhats": "https://chat.whatsapp.com/F0WJMWlaG4jLWYoSgLe33O",
+    "status": "Ativo"
   },
   {
     "microregiao": "Divinópolis",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+EFXx-w_QElwwNjJh",
+    "linkWhats": "https://chat.whatsapp.com/BHW2WlvBQIg1R8PsDUUjSS",
+    "status": "Ativo"
   },
   {
     "microregiao": "Formiga",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+y2iHcCea5UxiMzIx",
+    "linkWhats": "https://chat.whatsapp.com/E3LU2SczQILAV0kzOE2OKs",
+    "status": "Ativo"
   },
   {
     "microregiao": "Campo Belo",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+d01FwN4MD1U0NGUx",
+    "linkWhats": "https://chat.whatsapp.com/LtArHUUH296E1mxTdBxUUH",
+    "status": "Ativo"
   },
   {
     "microregiao": "Oliveira",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+ULhO0MzJoqtmOWU5",
+    "linkWhats": "https://chat.whatsapp.com/JK1VKE4YHMgF2KsFkstOec",
+    "status": "Ativo"
   },
   {
     "microregiao": "Passos",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+8uP9li56QAQyZjkx",
+    "linkWhats": "https://chat.whatsapp.com/JmOKvZqoP21BBPMhVvWchj",
+    "status": "Ativo"
   },
   {
     "microregiao": "São Sebastião do Paraíso",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+AYw9Kw4mj5BiYjEx",
+    "linkWhats": "https://chat.whatsapp.com/EnOSDbeLyAa6pv4LHa9K4X",
+    "status": "Ativo"
   },
   {
     "microregiao": "Alfenas",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+2kHL3iatQiE3Zjgx",
+    "linkWhats": "https://chat.whatsapp.com/FowQTezIVlm3uzIoxrZlLl",
+    "status": "Ativo"
   },
   {
     "microregiao": "Varginha",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+vOZAcrq-cDNhOGZh",
+    "linkWhats": "https://chat.whatsapp.com/FowQTezIVlm3uzIoxrZlLl",
+    "status": "Ativo"
   },
   {
     "microregiao": "Poços de Caldas",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+ajmyRC6lONZmYjcx",
+    "status": "Ativo"
   },
   {
     "microregiao": "Pouso Alegre",
