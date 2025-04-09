@@ -1451,8 +1451,9 @@ const gruposData = [
   {
     "microregiao": "Salvador",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+BfW3Bm_Evi9mYmVh", 
+    "linkWhats": "https://chat.whatsapp.com/LrGhlCJZFMsL45Bzfg4woK",
+    "status": "Ativo"
   },
   {
     "microregiao": "Boquira",
@@ -2063,110 +2064,128 @@ const gruposData = [
   {
     "microregiao": "Itaperuna",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+Bh4mYY4-auw5ODAx", 
+    "linkWhats": "https://chat.whatsapp.com/Cxg3xUqQp2wBInazqFali9",
+    "status": "Ativo"
   },
   {
     "microregiao": "Santo Antônio de Pádua",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+xHRDfseXMFoyMDgx", 
+    "linkWhats": "https://chat.whatsapp.com/CmCcNiSX4jO4nb4SX036S4",
+    "status": "Ativo"
   },
   {
     "microregiao": "Campos dos Goytacazes",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+BZR4psRvZNw3OTdh", 
+    "linkWhats": "https://chat.whatsapp.com/Hs36IeNaBjh8uEiHAxO0Za",
+    "status": "Ativo"
   },
   {
     "microregiao": "Macaé",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+XFScU5GKTec0NGEx", 
+    "linkWhats": "https://chat.whatsapp.com/BAqbD3npBoZDrlkTZQFPLD",
+    "status": "Ativo"
   },
   {
     "microregiao": "Três Rios",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+gqj6sFfnsXE2YWZh", 
+    "linkWhats": "https://chat.whatsapp.com/F7CcL1Tbk1MIyrxdQ6E5wU",
+    "status": "Ativo"
   },
   {
     "microregiao": "Cantagalo-Cordeiro",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+uWdfuiXP7p00YTQ5", 
+    "linkWhats": "https://chat.whatsapp.com/B5DSC5YqErc92ABWOlgxOF",
+    "status": "Ativo"
   },
   {
     "microregiao": "Nova Friburgo",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+oH2ZFK5kCMVkYTRh", 
+    "linkWhats": "https://chat.whatsapp.com/JgYYn3s71pjFu09NCNIcep",
+    "status": "Ativo"
   },
   {
     "microregiao": "Santa Maria Madalena",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+aPr67hKJkqU4ZmU5", 
+    "linkWhats": "https://chat.whatsapp.com/KmikvsFXv5xDuGDIafQ3oO",
+    "status": "Ativo"
   },
   {
     "microregiao": "Bacia de São João",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+kJNxeGiiF1RkZjgx", 
+    "linkWhats": "https://chat.whatsapp.com/JKtu1jh7xE91bFlJjTUfM6",
+    "status": "Ativo"
   },
   {
     "microregiao": "Lagos",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+ktWOURUpOo9hMTk5", 
+    "linkWhats": "https://chat.whatsapp.com/FyY7iN3zULr12gaXtP4jwP",
+    "status": "Ativo"
   },
   {
     "microregiao": "Vale do Paraíba Fluminense",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+fvZmVwO_5IczZTUx", 
+    "linkWhats": "https://chat.whatsapp.com/Ew37XDnNDKuF50VNukVeta",
+    "status": "Ativo"
   },
   {
     "microregiao": "Barra do Piraí",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+YAysEVXn2_4wMjgx", 
+    "linkWhats": "https://chat.whatsapp.com/HU3VgtAJirTK8KOMiFa88Y",
+    "status": "Ativo"
   },
   {
     "microregiao": "Baía da Ilha Grande",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+2Dp7c5pWC2IxNjcx", 
+    "linkWhats": "https://chat.whatsapp.com/Gp2XMhwjbO58vbqAgXZrsM",
+    "status": "Ativo"
   },
   {
     "microregiao": "Vassouras",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+IabothIXcT4zNjcx", 
+    "linkWhats": "https://chat.whatsapp.com/KCktTkzKkDt0Zh2u54AQmU",
+    "status": "Ativo"
   },
   {
     "microregiao": "Serrana",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+70Krir-iwc0yNDQx", 
+    "linkWhats": "https://chat.whatsapp.com/KCVZUYZgfVGEYoGxPt5H5X",
+    "status": "Ativo"
   },
   {
     "microregiao": "Macacu-Caceribu",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+V5d4c-a-EltmOWZh", 
+    "linkWhats": "https://chat.whatsapp.com/KgRdJgBUdVH49R6XO2GREy",
+    "status": "Ativo"
   },
   {
     "microregiao": "Itaguaí",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+HZRAelCu3jAxZDIx", 
+    "linkWhats": "https://chat.whatsapp.com/GUIbHMinAvSAVpQxSfdSDs",
+    "status": "Ativo"
   },
   {
     "microregiao": "Rio de Janeiro",
     "estado": "RJ",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+AMIklHi6vgBhYmNh", 
+    "linkWhats": "https://chat.whatsapp.com/BC1nb98s8de9wJe8R8tA1X",
+    "status": "Ativo"
   },
   {
     "microregiao": "Jales",
