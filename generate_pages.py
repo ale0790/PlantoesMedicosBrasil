@@ -17,6 +17,9 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://plantoesmedicosbrasil.com.br/{slug}">
     
+    <!-- Google AdSense -->
+    <meta name="google-adsense-account" content="ca-pub-6042215656970545">
+    
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://plantoesmedicosbrasil.com.br/{slug}">

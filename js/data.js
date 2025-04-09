@@ -1874,97 +1874,113 @@ const gruposData = [
     "microregiao": "Poços de Caldas",
     "estado": "MG",
     "link": "https://t.me/+ajmyRC6lONZmYjcx",
+    "linkWhats": "https://chat.whatsapp.com/Gc0Egias0VU0F8CPhMBHds",
     "status": "Ativo"
   },
   {
     "microregiao": "Pouso Alegre",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+F0uk3nrWXsk0ZmJh",
+    "linkWhats": "https://chat.whatsapp.com/Ib5kufKkgixCbG0dcRLm4r",
+    "status": "Ativo"
   },
   {
     "microregiao": "Santa Rita do Sapucaí",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+HVai9we9UYQ1NmFh",
+    "linkWhats": "https://chat.whatsapp.com/LMtldKKxY8J9cbjhuNp8FF",
+    "status": "Ativo"
   },
   {
     "microregiao": "São Lourenço",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+sT8c5Szoti1iZDNh",
+    "linkWhats": "https://chat.whatsapp.com/CvZBf2RCkES3Jzq470W782",
+    "status": "Ativo"
   },
   {
     "microregiao": "Andrelândia",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+KjzsUk8DcZBhMTk5",
+    "linkWhats": "https://chat.whatsapp.com/KtZwhFuZVuYCVRHe631sLW",
+    "status": "Ativo"
   },
   {
     "microregiao": "Itajubá",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+fnE5plBXiKE4ZGEx",
+    "linkWhats": "https://chat.whatsapp.com/F0IKgJFoHvf7uendrMJ4H0",
+    "status": "Ativo"
   },
   {
     "microregiao": "Lavras",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+bjkKkFn2Z0djMWQx",
+    "linkWhats": "https://chat.whatsapp.com/JB0B5QY757nCPyKRm9GTCl",
+    "status": "Ativo"
   },
   {
     "microregiao": "São João Del Rei",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+wdQIPYBEgNEyMGI5",
+    "linkWhats": "https://chat.whatsapp.com/L28hlA6CZx73OaQs0GfUla",
+    "status": "Ativo"
   },
   {
     "microregiao": "Barbacena",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+YJNzbXlRGRtjODgx",
+    "linkWhats": "https://chat.whatsapp.com/F8QaPuVYUViJgzRNljHgKa",
+    "status": "Ativo"
   },
   {
     "microregiao": "Ponte Nova",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+mEuIe6pNK31lMjkx",
+    "linkWhats": "https://chat.whatsapp.com/GAjsxfxOpb712oqiWHlx2i",
+    "status": "Ativo"
   },
   {
     "microregiao": "Manhuaçu",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+Zn5ZGBwP6iFjYjdh",
+    "linkWhats": "https://chat.whatsapp.com/FU8o889V7vUCFwb2fyL8PC",
+    "status": "Ativo"
   },
   {
     "microregiao": "Viçosa",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+JGhWv8zrwtw0MThh",
+    "linkWhats": "https://chat.whatsapp.com/FcX9sbCaI0MI2u5Kc8GuG8",
+    "status": "Ativo"
   },
   {
     "microregiao": "Muriaé",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+HyL6g3Vexx02YWY5",
+    "linkWhats": "https://chat.whatsapp.com/EfOdVCbwQatKsbXrtOXEnW",
+    "status": "Ativo"
   },
   {
     "microregiao": "Ubá",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+oaJZAMOeOqtiOWY5",
+    "linkWhats": "https://chat.whatsapp.com/FgrdwgnzZU2H2EIf4uomqH",
+    "status": "Ativo"
   },
   {
     "microregiao": "Juiz de Fora",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+f7DdTu5_WJk3N2I5",
+    "linkWhats": "https://chat.whatsapp.com/HBrV6IywcEtCWv0T9sTsPp",
+    "status": "Ativo"
   },
   {
     "microregiao": "Cataguases",
     "estado": "MG",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+R2teYw_9FPA3NjNh",
+    "linkWhats": "https://chat.whatsapp.com/KgDARzIchsW3DPqUghIDFW",
+    "status": "Ativo"
   },
   {
     "microregiao": "Barra de São Francisco",
