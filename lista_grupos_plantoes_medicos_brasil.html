@@ -133,8 +133,15 @@
             text-decoration: none;
             border-radius: 4px;
             font-size: 0.875rem;
-            margin-right: 0.5rem;
+            margin: 0.25rem;
             transition: background-color 0.2s;
+            white-space: nowrap;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.25rem;
         }
 
         .btn-telegram {
@@ -192,23 +199,54 @@
             }
 
             .grupos-table {
-                display: block;
-                overflow-x: auto;
-                white-space: nowrap;
-            }
-
-            .grupos-table th,
-            .grupos-table td {
                 font-size: 0.875rem;
             }
 
-            .btn-link {
-                margin-bottom: 0.5rem;
+            .grupos-table thead {
+                display: none;
             }
 
-            .filter-container select {
+            .grupos-table, 
+            .grupos-table tbody, 
+            .grupos-table tr, 
+            .grupos-table td {
+                display: block;
                 width: 100%;
-                min-width: unset;
+            }
+
+            .grupos-table tr {
+                margin-bottom: 1rem;
+                border: 1px solid #dee2e6;
+                border-radius: 4px;
+                padding: 0.5rem;
+            }
+
+            .grupos-table td {
+                display: flex;
+                padding: 0.5rem;
+                border: none;
+                align-items: center;
+            }
+
+            .grupos-table td::before {
+                content: attr(data-label);
+                font-weight: 600;
+                width: 120px;
+                min-width: 120px;
+            }
+
+            .grupos-table td:not(:last-child) {
+                border-bottom: 1px solid #eee;
+            }
+
+            .btn-link {
+                padding: 0.5rem;
+                font-size: 0.8125rem;
+            }
+
+            .badge-ativo,
+            .badge-em-breve {
+                margin-left: auto;
             }
         }
     </style>
@@ -254,8 +292,7 @@
                     <tr>
                         <th>Estado</th>
                         <th>Microregião</th>
-                        <th>Telegram</th>
-                        <th>WhatsApp</th>
+                        <th>Grupos</th>
                         <th>Status</th>
                     </tr>
                 </thead>
@@ -352,23 +389,21 @@
             gruposFiltrados.forEach(grupo => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td>${grupo.estado}</td>
-                    <td>${grupo.microregiao}</td>
-                    <td>
+                    <td data-label="Estado">${grupo.estado}</td>
+                    <td data-label="Microregião">${grupo.microregiao}</td>
+                    <td data-label="Grupos" class="btn-group">
                         ${grupo.link && grupo.link !== 'em-breve.html' ? `
                             <a href="${grupo.link}" class="btn-link btn-telegram" target="_blank">
-                                <i class="fab fa-telegram"></i> Entrar
+                                <i class="fab fa-telegram"></i> Telegram
                             </a>
-                        ` : grupo.link === 'em-breve.html' ? 'Em Breve' : 'N/A'}
-                    </td>
-                    <td>
+                        ` : grupo.link === 'em-breve.html' ? '<span>Em Breve</span>' : ''}
                         ${grupo.linkWhats ? `
                             <a href="${grupo.linkWhats}" class="btn-link btn-whatsapp" target="_blank">
-                                <i class="fab fa-whatsapp"></i> Entrar
+                                <i class="fab fa-whatsapp"></i> WhatsApp
                             </a>
-                        ` : 'N/A'}
+                        ` : ''}
                     </td>
-                    <td><span class="badge-${grupo.status === 'Ativo' ? 'ativo' : 'em-breve'}">${grupo.status || 'Ativo'}</span></td>
+                    <td data-label="Status"><span class="badge-${grupo.status === 'Ativo' ? 'ativo' : 'em-breve'}">${grupo.status || 'Ativo'}</span></td>
                 `;
                 tabelaGrupos.appendChild(row);
             });
