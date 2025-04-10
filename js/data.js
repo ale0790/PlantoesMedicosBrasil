@@ -2206,7 +2206,6 @@ const gruposData = [
     "estado": "SP",
     "link": "https://t.me/+gwl_dUt-0nAzMDlh",
     "linkWhats": "https://chat.whatsapp.com/GXJu0XMwfRK7xGlaFHVSas",
-    "link": "em-breve.html",
     "status": "Ativo"
   },
   {

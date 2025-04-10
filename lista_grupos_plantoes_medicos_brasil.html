@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Grupos de Plantões Médicos Brasil</title>
+    <meta name="description" content="Encontre a lista completa de grupos de plantões médicos ativos no Brasil. Filtre por estado e microregião para localizar rapidamente o grupo que procura.">
+    <meta name="keywords" content="plantões médicos, grupos de plantão, vagas médicas, microregiões, telegram médicos, whatsapp médicos, oportunidades médicas">
+    <meta name="author" content="Grupo de Plantões Médicos Brasil">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google AdSense (caso aplicável) -->
+    <meta name="google-adsense-account" content="ca-pub-6042215656970545">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://plantoesmedicosbrasil.com.br/lista_grupos_plantoes_medicos_brasil.html">
+    <meta property="og:title" content="Lista de Grupos de Plantões Médicos Brasil">
+    <meta property="og:description" content="Encontre a lista completa de grupos de plantões médicos ativos no Brasil.">
+    <meta property="og:image" content="https://plantoesmedicosbrasil.com.br/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://plantoesmedicosbrasil.com.br/lista_grupos_plantoes_medicos_brasil.html">
+    <meta property="twitter:title" content="Lista de Grupos de Plantões Médicos Brasil">
+    <meta property="twitter:description" content="Encontre a lista completa de grupos de plantões médicos ativos no Brasil.">
+    <meta property="twitter:image" content="https://plantoesmedicosbrasil.com.br/images/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        /* Estilos específicos para esta página */
+        body {
+            background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .menu-toggle {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: #333;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .main-content {
+            margin-top: 80px; /* Espaço para o header fixo */
+            padding: 2rem 1rem;
+        }
+
+        .grupos-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .filter-container {
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-container select {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            min-width: 200px;
+        }
+
+        .grupos-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        .grupos-table th,
+        .grupos-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .grupos-table th {
+            background-color: #f1f3f5;
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .grupos-table tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .btn-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.375rem 0.75rem;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            margin-right: 0.5rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn-telegram {
+            background-color: #0088cc;
+        }
+
+        .btn-telegram:hover {
+            background-color: #006699;
+        }
+
+        .btn-whatsapp {
+            background-color: #25D366;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #128C7E;
+        }
+
+        .badge-ativo {
+            background-color: #28a745;
+            color: #fff;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.25rem;
+            font-size: 0.875rem;
+        }
+
+        .badge-em-breve {
+            background-color: #6c757d;
+            color: #fff;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.25rem;
+            font-size: 0.875rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #fff;
+                flex-direction: column;
+                padding: 1rem;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .grupos-table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+
+            .grupos-table th,
+            .grupos-table td {
+                font-size: 0.875rem;
+            }
+
+            .btn-link {
+                margin-bottom: 0.5rem;
+            }
+
+            .filter-container select {
+                width: 100%;
+                min-width: unset;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1><i class="fas fa-hospital-user"></i> Plantões Médicos Brasil</h1>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html"><i class="fas fa-home"></i> Início</a>
+                <a href="index.html#como-funciona"><i class="fas fa-question-circle"></i> Como Funciona</a>
+                <a href="index.html#para-medicos"><i class="fas fa-user-md"></i> Para Médicos</a>
+                <a href="index.html#para-empresas"><i class="fas fa-building"></i> Para Empresas</a>
+                <a href="index.html#grupos"><i class="fas fa-users"></i> Grupos</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="grupos-container">
+            <h1>Lista de Grupos Ativos</h1>
+            <p class="grupos-description">
+                Bem-vindo à nossa plataforma de conexão entre profissionais médicos e oportunidades de plantões! Aqui você encontra grupos ativos organizados por estado e microregião. Para médicos, descubra vagas de plantão disponíveis. Para gestores e empresas, encontre profissionais qualificados para suas vagas. Selecione um grupo para começar a conectar-se com as oportunidades em sua região.
+            </p>
+
+            <div class="filter-container">
+                <select id="estado-filter">
+                    <option value="">Todos os Estados</option>
+                </select>
+                <select id="microregiao-filter">
+                    <option value="">Todas as Microregiões</option>
+                </select>
+            </div>
+
+            <table class="grupos-table" id="tabela-grupos">
+                <thead>
+                    <tr>
+                        <th>Estado</th>
+                        <th>Microregião</th>
+                        <th>Telegram</th>
+                        <th>WhatsApp</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Itens inseridos via JavaScript -->
+                </tbody>
+            </table>
+            <a href="index.html" class="return-link"><i class="fas fa-arrow-left"></i> Voltar</a>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Grupo de Plantões Médicos Brasil</h3>
+                    <p>Conectando médicos e empresas em todo o Brasil</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <a href="index.html"><i class="fas fa-home"></i> Início</a>
+                    <a href="index.html#como-funciona"><i class="fas fa-question-circle"></i> Como Funciona</a>
+                    <a href="index.html#para-medicos"><i class="fas fa-user-md"></i> Para Médicos</a>
+                    <a href="index.html#para-empresas"><i class="fas fa-building"></i> Para Empresas</a>
+                    <a href="index.html#grupos"><i class="fas fa-users"></i> Grupos</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Grupo de Plantões Médicos Brasil. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script de dados e lógica para exibir a tabela -->
+    <script src="js/data.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Filtros
+        const estadoFilter = document.getElementById('estado-filter');
+        const microregiaoFilter = document.getElementById('microregiao-filter');
+        const tabelaGrupos = document.getElementById('tabela-grupos').getElementsByTagName('tbody')[0];
+
+        // Preenche o select de estados
+        const estados = [...new Set(gruposData.map(grupo => grupo.estado))].sort();
+        estados.forEach(estado => {
+            const option = document.createElement('option');
+            option.value = estado;
+            option.textContent = estado;
+            estadoFilter.appendChild(option);
+        });
+
+        // Atualiza microregiões quando estado é selecionado
+        estadoFilter.addEventListener('change', () => {
+            const selectedEstado = estadoFilter.value;
+            const microregioes = [...new Set(
+                gruposData
+                    .filter(grupo => !selectedEstado || grupo.estado === selectedEstado)
+                    .map(grupo => grupo.microregiao)
+            )].sort();
+
+            microregiaoFilter.innerHTML = '<option value="">Todas as Microregiões</option>';
+            microregioes.forEach(microregiao => {
+                const option = document.createElement('option');
+                option.value = microregiao;
+                option.textContent = microregiao;
+                microregiaoFilter.appendChild(option);
+            });
+
+            atualizarTabela();
+        });
+
+        microregiaoFilter.addEventListener('change', atualizarTabela);
+
+        function atualizarTabela() {
+            const selectedEstado = estadoFilter.value;
+            const selectedMicroregiao = microregiaoFilter.value;
+
+            const gruposFiltrados = gruposData.filter(grupo => 
+                (!selectedEstado || grupo.estado === selectedEstado) &&
+                (!selectedMicroregiao || grupo.microregiao === selectedMicroregiao)
+            );
+
+            tabelaGrupos.innerHTML = '';
+
+            gruposFiltrados.forEach(grupo => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${grupo.estado}</td>
+                    <td>${grupo.microregiao}</td>
+                    <td>
+                        ${grupo.link && grupo.link !== 'em-breve.html' ? `
+                            <a href="${grupo.link}" class="btn-link btn-telegram" target="_blank">
+                                <i class="fab fa-telegram"></i> Entrar
+                            </a>
+                        ` : grupo.link === 'em-breve.html' ? 'Em Breve' : 'N/A'}
+                    </td>
+                    <td>
+                        ${grupo.linkWhats ? `
+                            <a href="${grupo.linkWhats}" class="btn-link btn-whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Entrar
+                            </a>
+                        ` : 'N/A'}
+                    </td>
+                    <td><span class="badge-${grupo.status === 'Ativo' ? 'ativo' : 'em-breve'}">${grupo.status || 'Ativo'}</span></td>
+                `;
+                tabelaGrupos.appendChild(row);
+            });
+        }
+
+        // Carrega a tabela inicial
+        atualizarTabela();
+    });
+    </script>
+</body>
+</html>
