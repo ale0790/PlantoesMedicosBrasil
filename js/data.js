@@ -1331,122 +1331,142 @@ const gruposData = [
   {
     "microregiao": "Barreiras",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+OMZjN44_sEc3MTg5",
+    "linkWhats": "https://chat.whatsapp.com/JnE88RNFRXQ9ckxeI82Ae3",
+    "status": "Ativo"
   },
   {
     "microregiao": "Cotegipe",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+YXNeBXngvsVmMDEx",
+    "linkWhats": "https://chat.whatsapp.com/HSzMEAxrA72INGVS31IQJt",
+    "status": "Ativo"
   },
   {
     "microregiao": "Santa Maria da Vitória",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+8u9PkFBmJXRhZDI5",
+    "linkWhats": "https://chat.whatsapp.com/CkzbdzVJCoE8a8t6Qp05s8",
+    "status": "Ativo"
   },
   {
     "microregiao": "Juazeiro",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+A1xxR_9tpUAzMjYx",
+    "linkWhats": "https://chat.whatsapp.com/DMEi5pi2out4a3w8Wr3Mtj",
+    "status": "Ativo"
   },
   {
     "microregiao": "Paulo Afonso",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+j3W-xAvyo-9iM2Ux",
+    "linkWhats": "https://chat.whatsapp.com/Gcg4drEPzp13lqXfuSoMwn",
+    "status": "Ativo"
   },
   {
     "microregiao": "Barra",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+upaBwrSkZp9jMTVh",
+    "linkWhats": "https://chat.whatsapp.com/DUmhmi0LlO23bKAqegpaF3",
+    "status": "Ativo"
   },
   {
     "microregiao": "Bom Jesus da Lapa",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+rHu500M95g45YmUx",
+    "linkWhats": "https://chat.whatsapp.com/Lc2KLo871Y1D1I5SKyxPiM",
+    "status": "Ativo"
   },
   {
     "microregiao": "Senhor do Bonfim",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+ACiCP9IGAp5kYjZh",
+    "linkWhats": "https://chat.whatsapp.com/GfIgcy9m9VnI3wzlcKs1aW",
+    "status": "Ativo"
   },
   {
     "microregiao": "Irecê",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+_URTD4uf7uw5YjI5",
+    "linkWhats": "https://chat.whatsapp.com/EJ42RpzUwJXBjdGwCpH0ct",
+    "status": "Ativo"
   },
   {
     "microregiao": "Jacobina",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+NLWSXkTaW-xiMTgx",
+    "linkWhats": "https://chat.whatsapp.com/JjAlTVn1FNK8fhhzk2bY7I",
+    "status": "Ativo"
   },
   {
     "microregiao": "Itaberaba",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+efeyzFyCPDUwMjgx",
+    "linkWhats": "https://chat.whatsapp.com/L9xoKfAnMYWIrY4BZPHKk5",
+    "status": "Ativo"
   },
   {
     "microregiao": "Feira de Santana",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+lAIhYuhl5GBlNWUx",
+    "linkWhats": "https://chat.whatsapp.com/GJJsEiaQOb1KXDdEjewjVL",
+    "status": "Ativo"
   },
   {
     "microregiao": "Jeremoabo",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+7ArmCueOlto5NDkx",
+    "linkWhats": "https://chat.whatsapp.com/BHOy1DVBnbmCHaShhO7ozp",
+    "status": "Ativo"
   },
   {
     "microregiao": "Euclides da Cunha",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+FevZSCWMBGRmZWIx",
+    "linkWhats": "https://chat.whatsapp.com/HRPFWtVDKJo88tjAIisGNA",
+    "status": "Ativo"
   },
   {
     "microregiao": "Ribeira do Pombal",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+LKRgpT49nR9jMDBh",
+    "linkWhats": "https://chat.whatsapp.com/DWoShGIEKB5K6ETJfZjL4k",
+    "status": "Ativo"
   },
   {
     "microregiao": "Serrinha",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+JCnOL8zxlIpiMmEx",
+    "linkWhats": "https://chat.whatsapp.com/DqwNKqwfvf3FUvdcXNVyaK",
+    "status": "Ativo"
   },
   {
     "microregiao": "Alagoinhas",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+KwX0D41kFZRhZmVh",
+    "linkWhats": "https://chat.whatsapp.com/G4WxB7WQsx431LRX1D6RxN",
+    "status": "Ativo"
   },
   {
     "microregiao": "Entre Rios",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+n4d50yedp7swZTlh",
+    "linkWhats": "https://chat.whatsapp.com/I5sn0hd9IpCG6coBIrZrtU",
+    "status": "Ativo"
   },
   {
     "microregiao": "Catu",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+9KR7eipCl0JkZDEx",
+    "linkWhats": "https://chat.whatsapp.com/LwGnhkWzdXZFldToFnjXqF",
+    "status": "Ativo"
   },
   {
     "microregiao": "Santo Antônio de Jesus",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+yaAmUEd2bgBlNmVh",
+    "linkWhats": "https://chat.whatsapp.com/CuEveVwoJq8H0eA3Id6zCV",
+    "status": "Ativo"
   },
   {
     "microregiao": "Salvador",
@@ -1458,68 +1478,79 @@ const gruposData = [
   {
     "microregiao": "Boquira",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+ibZGkmY4WAM5MzQx",
+    "linkWhats": "https://chat.whatsapp.com/K9oYzzzZw7WJCA6mqj5cbh",
+    "status": "Ativo"
   },
   {
     "microregiao": "Seabra",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+V4aAROzcV49mYWQx",
+    "linkWhats": "https://chat.whatsapp.com/Hwnup4jpz21L36ReAcuIEG",
+    "status": "Ativo"
   },
   {
     "microregiao": "Jequié",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+XgH47HGN3io4NmNh",
+    "linkWhats": "https://chat.whatsapp.com/J5vpgRZksNq8WcchE2Ctlx",
+    "status": "Ativo"
   },
   {
     "microregiao": "Livramento do Brumado",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+yzrI6CpNhfY3YzRh",
+    "linkWhats": "https://chat.whatsapp.com/IRJ62TPjCiZ6SZiW0ss67V",
+    "status": "Ativo"
   },
   {
     "microregiao": "Guanambi",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+NDdoa2NN63E0NGM5",
+    "linkWhats": "https://chat.whatsapp.com/J3STLTCKNqF9rjUkFrv9Cw",
+    "status": "Ativo"
   },
   {
     "microregiao": "Brumado",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+ZpN52wiHF-MxODdh",
+    "linkWhats": "https://chat.whatsapp.com/EiDJh6nU13qDTUh5DtC3m5",
+    "status": "Ativo"
   },
   {
     "microregiao": "Vitória da Conquista",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+_1DI4ZzwiSgyNzBh",
+    "linkWhats": "https://chat.whatsapp.com/IvuBEj9njpsDhH7wCRkiqD",
+    "status": "Ativo"
   },
   {
     "microregiao": "Itapetinga",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+yw0rtu4PBhFiZTRh",
+    "linkWhats": "https://chat.whatsapp.com/LPE4lBWgIEHIgkmO5GN4IA",
+    "status": "Ativo"
   },
   {
     "microregiao": "Valença",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+HJUhoL3qJJg5ZTM5",
+    "linkWhats": "https://chat.whatsapp.com/F1iFLIoT810J8WRc6hDmhh",
+    "status": "Ativo"
   },
   {
     "microregiao": "Ilhéus-Itabuna",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+0vzuKjIdtbdlZWZh",
+    "linkWhats": "https://chat.whatsapp.com/ClDu4rU7NHED5UHekZ1Sq7",
+    "status": "Ativo"
   },
   {
     "microregiao": "Porto Seguro",
     "estado": "BA",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+emXcArhy0bRiZDEx",
+    "linkWhats": "https://chat.whatsapp.com/FE3LunAPi45GKILlAbTHj5",
+    "status": "Ativo"
   },
   {
     "microregiao": "Unaí",
