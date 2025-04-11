@@ -2739,44 +2739,51 @@ const gruposData = [
   {
     "microregiao": "Faxinal",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+v5A0fY8iHGFlNTZh",
+    "linkWhats": "https://chat.whatsapp.com/Cadx8KqXTAHGew10ArneKO",
+    "status": "Ativo"
   },
   {
     "microregiao": "Ivaiporã",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+D8ywQ5rup144YTlh",
+    "linkWhats": "https://chat.whatsapp.com/J8tkKwtMb1ZIHLh3eoK3YG",
+    "status": "Ativo"
   },
   {
     "microregiao": "Assaí",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+AFHrJ2WDh5oyZTZh",
+    "linkWhats": "https://chat.whatsapp.com/DVQjBmDPkI35grnnhyPLZd",
+    "status": "Ativo"
   },
   {
     "microregiao": "Cornélio Procópio",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+Sd-YRT0-82Y1NzEx",
+    "linkWhats": "https://chat.whatsapp.com/GxHbc5SJXUF2tBSXK3QhZ5",
+    "status": "Ativo"
   },
   {
     "microregiao": "Jacarezinho",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+-NvP06CFszAzOTNh",
+    "linkWhats": "https://chat.whatsapp.com/HFtd2dm3JlgGPGXPjeMU1a",
+    "status": "Ativo"
   },
   {
     "microregiao": "Ibaiti",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+enHpOR1SpTRlYTgx",
+    "linkWhats": "https://chat.whatsapp.com/D49MTthwtRO3vGQ1o0ZhOR",
+    "status": "Ativo"
   },
   {
     "microregiao": "Wenceslau Braz",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+0WUGgDB7NVY0ZGIx",
+    "linkWhats": "https://chat.whatsapp.com/EhTM4ALonQpJfcTB7GgX7j",
+    "status": "Ativo"
   },
   {
     "microregiao": "Telêmaco Borba",
