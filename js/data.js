@@ -2601,7 +2601,7 @@ const gruposData = [
     "estado": "SP",
     "link": "https://t.me/+Tjk5Y39zzgRjNmEx",
     "linkWhats": "https://chat.whatsapp.com/HCLAVtWMyz19URqqP1Q09G",
-    "status": "Em Breve"
+    "status": "Ativo"
   },
   {
     "microregiao": "Itanhaém",
