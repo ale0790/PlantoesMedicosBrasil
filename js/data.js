@@ -2662,68 +2662,79 @@ const gruposData = [
   {
     "microregiao": "Paranavaí",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://chat.whatsapp.com/H4daXGPOyA81Wqv5l1cS5c",
+    "linkWhats": "https://chat.whatsapp.com/H4daXGPOyA81Wqv5l1cS5c",
+    "status": "Ativo"
   },
   {
     "microregiao": "Umuarama",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+mQ66HnjKFisyM2Jh",
+    "linkWhats": "https://chat.whatsapp.com/KblHzYV0aUE1c9aBMdfmrc",
+    "status": "Ativo"
   },
   {
     "microregiao": "Cianorte",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+JxlRVCN4J6Q1OWNh",
+    "linkWhats": "https://chat.whatsapp.com/KHhsLsE1O5O2nnmO0fdOky",
+    "status": "Ativo"
   },
   {
     "microregiao": "Goioerê",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+RvdDXxUzXdBkZDAx", 
+    "linkWhats": "https://chat.whatsapp.com/E0ODHCXS8EJCwlHN95DYf6",
+    "status": "Ativo"
   },
   {
     "microregiao": "Campo Mourão",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+Dxr6c4d5xbUxYTcx", 
+    "linkWhats": "https://chat.whatsapp.com/GLrgmUG8Xru4y47jQQMFMI",
+    "status": "Ativo"
   },
   {
     "microregiao": "Astorga",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+n-9hip6WKUgzYzdh", 
+    "linkWhats": "https://chat.whatsapp.com/JLVTRhVTR9IFgPKvufDvhn",
+    "status": "Ativo"
   },
   {
     "microregiao": "Porecatu",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+WSSxI-dIPho5ZjBh", 
+    "linkWhats": "https://chat.whatsapp.com/Lw0tuCxnU1fHRySiWW7v87",
+    "status": "Ativo"
   },
   {
     "microregiao": "Floraí",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+3ag6AUE-HQViOTBh", 
+    "linkWhats": "https://chat.whatsapp.com/BfMdzyjnTQE1GyP3QcfvdR",
+    "status": "Ativo"
   },
   {
     "microregiao": "Maringá",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+31dbQDFScBJlNWVh", 
+    "linkWhats": "https://chat.whatsapp.com/Dw0tRRpnRoyIq2pHZysA4l",
+    "status": "Ativo"
   },
   {
     "microregiao": "Apucarana",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+INTfRmVPqwcwMjVh", 
+    "linkWhats": "https://chat.whatsapp.com/E6T5prIlp5iL6lsHeKOOom",
+    "status": "Ativo"
   },
   {
     "microregiao": "Londrina",
     "estado": "PR",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+t9JatpeFESVmOTVh", 
+    "linkWhats": "https://chat.whatsapp.com/EcNefuNjydsCTobmktUbMW",
+    "status": "Ativo"
   },
   {
     "microregiao": "Faxinal",
