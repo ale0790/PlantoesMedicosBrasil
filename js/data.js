@@ -2916,122 +2916,142 @@ const gruposData = [
   {
     "microregiao": "São Miguel do Oeste",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+e1UgpAfAaRQ3Mzkx",
+    "linkWhats": "https://chat.whatsapp.com/CcuYOgdpc1u7VhvoH77bOh",
+    "status": "Ativo"
   },
   {
     "microregiao": "Chapecó",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+VUF9A5KWSrVhZGIx",
+    "linkWhats": "https://chat.whatsapp.com/HQdnpsnvBsi4fSxuWEQUMA",
+    "status": "Ativo"
   },
   {
     "microregiao": "Xanxerê",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+IFg3PIMWEkc2NzAx",
+    "linkWhats": "https://chat.whatsapp.com/FUloO2a3aD79B63ovRcAIf",
+    "status": "Ativo"
   },
   {
     "microregiao": "Joaçaba",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+maFDwsYa7RQ5OTdh",
+    "linkWhats": "https://chat.whatsapp.com/HHGKAMovNRNGjWpkiXAjFE",
+    "status": "Ativo"
   },
   {
     "microregiao": "Concórdia",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+4GMvWLHrSSViNjg5",
+    "linkWhats": "https://chat.whatsapp.com/INIaLrgIh023khEX20DMG8",
+    "status": "Ativo"
   },
   {
     "microregiao": "Canoinhas",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+8_yZa1h7FYY5ZTIx",
+    "linkWhats": "https://chat.whatsapp.com/LGxJIi8OHVRLO7hGoEHi2L",
+    "status": "Ativo"
   },
   {
     "microregiao": "São Bento do Sul",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+cy8kE7gsQSMzY2Rh",
+    "linkWhats": "https://chat.whatsapp.com/L4Y1GRBu0aq6bU8jxK2J6W",
+    "status": "Ativo"
   },
   {
     "microregiao": "Joinville",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+K0ise_esuK1mMzRh",
+    "linkWhats": "https://chat.whatsapp.com/LTdP0W0AMWT0fqCzvqsV7R",
+    "status": "Ativo"
   },
   {
     "microregiao": "Curitibanos",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+JKWmsZyhSLswNTlh",
+    "linkWhats": "https://chat.whatsapp.com/HNKQUG7h0DP5IqpqJAw5i1",
+    "status": "Ativo"
   },
   {
     "microregiao": "Campos de Lages",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+tB7j_XCZNl8xYWZh",
+    "linkWhats": "https://chat.whatsapp.com/LYGq7kidwqyHyrn2zIs68J",
+    "status": "Ativo"
   },
   {
     "microregiao": "Rio do Sul",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+9WEz4FuwRvQzNTM5",
+    "linkWhats": "https://chat.whatsapp.com/L0QEUMPKocHDhn5bw0W0JE",
+    "status": "Ativo"
   },
   {
     "microregiao": "Blumenau",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+jS5MrHc9mlkwZDhh",
+    "linkWhats": "https://chat.whatsapp.com/C4Aq7sZX3J4KfugVHlduNY",
+    "status": "Ativo"
   },
   {
     "microregiao": "Itajaí",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+neVE7y0YmvAzMTMx",
+    "linkWhats": "https://chat.whatsapp.com/JT4DHQA9BMZ8PvlO6U23Lz",
+    "status": "Ativo"
   },
   {
     "microregiao": "Ituporanga",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+2v-zCtgmPwM1NzYx",
+    "linkWhats": "https://chat.whatsapp.com/JipdBCuirMg2OzJcVnPR64",
+    "status": "Ativo"
   },
   {
     "microregiao": "Tijucas",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+0oyyIHTDEvc3OTM5",
+    "linkWhats": "https://chat.whatsapp.com/G9PWhwZ4LAY7Q6d8RtE39l",
+    "status": "Ativo"
   },
   {
     "microregiao": "Florianópolis",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+3VjnAWHoWxc1ZWRh",
+    "linkWhats": "https://chat.whatsapp.com/DtE9qsy6KQO6ImTCEqlTFh",
+    "status": "Ativo"
   },
   {
     "microregiao": "Tabuleiro",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+RYdrj9m5ArM2NTQx",
+    "linkWhats": "https://chat.whatsapp.com/FWtc7aEdqqU8lFXnJ7a4p1",
+    "status": "Ativo"
   },
   {
     "microregiao": "Tubarão",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+_IsUU3b8qocyY2Ix",
+    "linkWhats": "https://chat.whatsapp.com/LtEthiUdRic1sAQNNc0M5K",
+    "status": "Ativo"
   },
   {
     "microregiao": "Criciúma",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+oRDTNk2eJ642NTQx",
+    "linkWhats": "https://chat.whatsapp.com/KoSOMw3Aat72gKDyEmGF1j",
+    "status": "Ativo"
   },
   {
     "microregiao": "Araranguá",
     "estado": "SC",
-    "link": "em-breve.html",
-    "status": "Em Breve"
+    "link": "https://t.me/+nsW5q_6uMtliYTRh",
+    "linkWhats": "https://chat.whatsapp.com/B9ete57LamS5ichyjf67v3",
+    "status": "Ativo"
   },
   {
     "microregiao": "Santa Rosa",
